@@ -1,5 +1,20 @@
-EESchema-LIBRARY Version 2.3  Date: Wed 07 Jan 2015 09:33:25 AM CET
+EESchema-LIBRARY Version 2.3  Date: Wed 04 Feb 2015 10:10:07 AM CET
 #encoding utf-8
+#
+# IND_SMALL
+#
+DEF IND_SMALL U 0 0 N N 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "IND_SMALL" 0 0 60 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+A -25 0 25 1 1799 0 1 0 N 0 0 -50 0
+A 25 0 25 1 1799 0 1 0 N 50 0 0 0
+X ~ 1 -100 0 50 R 25 25 1 1 P
+X ~ 2 100 0 50 L 25 25 1 1 P
+ENDDRAW
+ENDDEF
 #
 # RES_0603
 #
