@@ -1,0 +1,39 @@
+PCBNEW-LibModule-V1  08/02/2015 13:24:59
+# encoding utf-8
+Units mm
+$INDEX
+SOD-123
+$EndINDEX
+$MODULE SOD-123
+Po 0 0 0 15 54D7552F 00000000 ~~
+Li SOD-123
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.7 1 1 0 0.15 N V 21 N "SOD-123"
+T1 5.3 -1.3 1 1 0 0.15 N V 21 N "VAL**"
+DS -0.7 0 0.5 -0.8 0.15 21
+DS 0.5 -0.8 0.5 0.8 0.15 21
+DS 0.5 0.8 -0.7 0 0.15 21
+DS -1 -0.8 -1 0.8 0.15 21
+DS -0.7 -0.8 -0.7 0.8 0.15 21
+DS -1.4 -0.8 1.4 -0.8 0.15 21
+DS 1.4 -0.8 1.4 0.8 0.15 21
+DS 1.4 0.8 -1.4 0.8 0.15 21
+DS -1.4 0.8 -1.4 -0.8 0.15 21
+$PAD
+Sh "1" R 0.91 1.22 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.635 0
+$EndPAD
+$PAD
+Sh "2" R 0.91 1.22 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.635 0
+$EndPAD
+$EndMODULE SOD-123
+$EndLIBRARY
