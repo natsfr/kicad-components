@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  08/02/2015 15:10:57
+PCBNEW-LibModule-V1  15/02/2015 15:33:47
 # encoding utf-8
 Units mm
 $INDEX
 USB_A_KEY
 $EndINDEX
 $MODULE USB_A_KEY
-Po 0 0 0 15 54D76E4D 00000000 ~~
+Po 0 0 0 15 54E0AE43 00000000 ~~
 Li USB_A_KEY
 Sc 0
 AR 
@@ -75,7 +75,7 @@ Ne 0 ""
 Po -1.75 -5
 $EndPAD
 $PAD
-Sh "1" C 0.5 0.5 0 0 0
+Sh "" C 0.5 0.5 0 0 0
 Dr 0.5 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
