@@ -20,8 +20,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -30,8 +28,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -40,8 +36,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -50,8 +44,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -60,8 +52,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -70,8 +60,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -80,8 +68,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -90,8 +76,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -100,8 +84,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -110,8 +92,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -120,8 +100,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -130,8 +108,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -140,8 +116,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -150,8 +124,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -160,8 +132,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -170,8 +140,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 -2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -180,8 +148,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -190,8 +156,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -200,8 +164,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -210,8 +172,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -220,8 +180,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -230,8 +188,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -240,8 +196,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -250,8 +204,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -260,8 +212,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -270,8 +220,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -280,8 +228,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -290,8 +236,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -300,8 +244,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -310,8 +252,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -320,8 +260,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -330,8 +268,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 -2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -340,8 +276,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -350,8 +284,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -360,8 +292,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -370,8 +300,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -380,8 +308,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -390,8 +316,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -400,8 +324,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -410,8 +332,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -420,8 +340,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -430,8 +348,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -440,8 +356,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -450,8 +364,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -460,8 +372,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -470,8 +380,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -480,8 +388,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -490,8 +396,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 -2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -500,8 +404,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -510,8 +412,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -520,8 +420,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -530,8 +428,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -540,8 +436,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -550,8 +444,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -560,8 +452,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -570,8 +460,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -580,8 +468,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -590,8 +476,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -600,8 +484,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -610,8 +492,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -620,8 +500,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -630,8 +508,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -640,8 +516,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -650,8 +524,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 -1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -660,8 +532,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -670,8 +540,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -680,8 +548,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -690,8 +556,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -700,8 +564,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -710,8 +572,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -720,8 +580,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -730,8 +588,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -740,8 +596,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -750,8 +604,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -760,8 +612,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -770,8 +620,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -780,8 +628,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -790,8 +636,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -800,8 +644,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -810,8 +652,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 -1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -820,8 +660,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -830,8 +668,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -840,8 +676,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -850,8 +684,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -860,8 +692,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -870,8 +700,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -880,8 +708,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -890,8 +716,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -900,8 +724,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -910,8 +732,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -920,8 +740,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -930,8 +748,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -940,8 +756,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -950,8 +764,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -960,8 +772,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -970,8 +780,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 -984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -980,8 +788,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -990,8 +796,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1000,8 +804,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1010,8 +812,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1020,8 +820,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1030,8 +828,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1040,8 +836,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1050,8 +844,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1060,8 +852,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1070,8 +860,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1080,8 +868,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1090,8 +876,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1100,8 +884,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1110,8 +892,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1120,8 +900,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1130,8 +908,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 -590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1140,8 +916,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1150,8 +924,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1160,8 +932,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1170,8 +940,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1180,8 +948,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1190,8 +956,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1200,8 +964,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1210,8 +972,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1220,8 +980,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1230,8 +988,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1240,8 +996,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1250,8 +1004,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1260,8 +1012,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1270,8 +1020,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1280,8 +1028,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1290,8 +1036,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 -196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1300,8 +1044,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1310,8 +1052,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1320,8 +1060,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1330,8 +1068,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1340,8 +1076,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1350,8 +1084,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1360,8 +1092,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1370,8 +1100,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1380,8 +1108,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1390,8 +1116,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1400,8 +1124,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1410,8 +1132,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1420,8 +1140,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1430,8 +1148,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1440,8 +1156,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1450,8 +1164,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 196
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1460,8 +1172,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1470,8 +1180,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1480,8 +1188,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1490,8 +1196,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1500,8 +1204,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1510,8 +1212,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1520,8 +1220,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1530,8 +1228,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1540,8 +1236,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1550,8 +1244,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1560,8 +1252,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1570,8 +1260,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1580,8 +1268,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1590,8 +1276,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1600,8 +1284,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1610,8 +1292,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 590
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1620,8 +1300,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1630,8 +1308,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1640,8 +1316,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1650,8 +1324,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1660,8 +1332,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1670,8 +1340,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1680,8 +1348,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1690,8 +1356,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1700,8 +1364,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1710,8 +1372,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1720,8 +1380,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1730,8 +1388,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1740,8 +1396,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1750,8 +1404,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1760,8 +1412,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1770,8 +1420,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 984
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1780,8 +1428,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1790,8 +1436,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1800,8 +1444,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1810,8 +1452,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1820,8 +1460,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1830,8 +1468,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1840,8 +1476,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1850,8 +1484,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1860,8 +1492,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1870,8 +1500,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1880,8 +1508,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1890,8 +1516,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1900,8 +1524,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1910,8 +1532,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1920,8 +1540,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1930,8 +1548,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 1377
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1940,8 +1556,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1950,8 +1564,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1960,8 +1572,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1970,8 +1580,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1980,8 +1588,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -1990,8 +1596,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2000,8 +1604,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2010,8 +1612,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2020,8 +1620,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2030,8 +1628,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2040,8 +1636,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2050,8 +1644,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2060,8 +1652,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2070,8 +1660,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2080,8 +1668,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2090,8 +1676,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 1771
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2100,8 +1684,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2110,8 +1692,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2120,8 +1700,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2130,8 +1708,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2140,8 +1716,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2150,8 +1724,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2160,8 +1732,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2170,8 +1740,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2180,8 +1748,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2190,8 +1756,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2200,8 +1764,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2210,8 +1772,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2220,8 +1780,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2230,8 +1788,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2240,8 +1796,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2250,8 +1804,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 2165
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2260,8 +1812,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2270,8 +1820,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2280,8 +1828,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2290,8 +1836,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2300,8 +1844,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2310,8 +1852,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2320,8 +1860,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2330,8 +1868,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2340,8 +1876,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2350,8 +1884,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2360,8 +1892,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2370,8 +1900,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2380,8 +1908,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2390,8 +1916,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2400,8 +1924,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2410,8 +1932,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 2559
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2420,8 +1940,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2952 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2430,8 +1948,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2559 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2440,8 +1956,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2165 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2450,8 +1964,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1771 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2460,8 +1972,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1377 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2470,8 +1980,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -984 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2480,8 +1988,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -590 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2490,8 +1996,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -196 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2500,8 +2004,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 196 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2510,8 +2012,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 590 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2520,8 +2020,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 984 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2530,8 +2028,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1377 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2540,8 +2036,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1771 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2550,8 +2044,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2165 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2560,8 +2052,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2559 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $PAD
@@ -2570,8 +2060,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2952 2952
-.SolderMask 204
-.LocalClearance 50
 .SolderPaste 149
 $EndPAD
 $EndMODULE FTG256
