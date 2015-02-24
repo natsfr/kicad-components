@@ -1,0 +1,9 @@
+(module VIA_600_300_GND (layer F.Cu) (tedit 54BAE4DF)
+  (fp_text reference VIA_600_300_GND (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (pad 3 thru_hole circle (at 0 0) (size 0.6096 0.6096) (drill 0.3) (layers *.Cu))
+)
