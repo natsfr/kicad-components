@@ -21,7 +21,6 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         self.AddParam("Pads", "pad width", self.uMM, 0.25)
         self.AddParam("Pads", "pad length", self.uMM, 0.4)
         self.AddParam("Pads", "pitch", self.uMM, 0.5)
-        # BUG: pads["*oval"] needs to be filled as 1 or 0 to work correctly
         self.AddParam("Pads", "oval", self.uBool, True)
         self.AddParam("Pads", "Width", self.uMM, 4)
         self.AddParam("Pads", "Length", self.uMM, 4)
@@ -41,6 +40,9 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
     def CheckParameters(self):
         self.CheckParamInt("Pads", "*nbpads")
         self.CheckParamInt("Pads", "*nbpads", is_multiple_of=4)
+        self.CheckParamBool("Pads", "*oval")
+        self.CheckParamBool("TPad", "*tpad")
+        self.CheckParamBool("TVias", "*tvias")
 
     def GetValue(self):
         return "QFN%d_%dx%dmm" % (self.parameters["Pads"]["*nbpads"],pcbnew.ToMM(self.parameters["Pads"]["Width"]),pcbnew.ToMM(self.parameters["Pads"]["Length"]))
