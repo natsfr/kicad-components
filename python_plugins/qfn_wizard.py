@@ -3,6 +3,10 @@ import pcbnew
 import HelpfulFootprintWizardPlugin as HFPW
 import PadArray as PA
 
+class ThermalViasArray(PA.PadGridArray):
+    def NamingFunction(self, x, y):
+        return self.firstPadNum
+
 class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
 
     def GetName(self):
@@ -17,6 +21,7 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         self.AddParam("Pads", "pad width", self.uMM, 0.25)
         self.AddParam("Pads", "pad length", self.uMM, 0.4)
         self.AddParam("Pads", "pitch", self.uMM, 0.5)
+        # BUG: pads["*oval"] needs to be filled as 1 or 0 to work correctly
         self.AddParam("Pads", "oval", self.uBool, True)
         self.AddParam("Pads", "Width", self.uMM, 4)
         self.AddParam("Pads", "Length", self.uMM, 4)
@@ -27,9 +32,11 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         self.AddParam("TPad", "L", self.uMM, 2.6)
 
         self.AddParam("TVias", "tvias", self.uBool, True)
+        self.AddParam("TVias", "rows", self.uNatural, 3)
+        self.AddParam("TVias", "cols", self.uNatural, 3)
         self.AddParam("TVias", "drill", self.uMM, 0.3)
         self.AddParam("TVias", "size", self.uMM, 0.6)
-        self.AddParam("TVias", "pitch", self.uMM, 0.5)
+        self.AddParam("TVias", "pitch", self.uMM, 1)
 
     def CheckParameters(self):
         self.CheckParamInt("Pads", "*nbpads")
@@ -53,7 +60,15 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
             array.SetFirstPadInArray(pads["*nbpads"]+1)
             array.AddPadsToModule(self.draw)
             if(tvias["*tvias"]):
-                thermal_via = PA.PadMaker(self.module)
+                via_size = tvias["size"]
+                via_drill = tvias["drill"]
+                via_rows = tvias["*rows"]
+                via_cols = tvias["*cols"]
+                via_pitch = tvias["pitch"]
+                thermal_via = PA.PadMaker(self.module).THRoundPad(via_size, via_drill)
+                array = ThermalViasArray(thermal_via, via_cols, via_rows, via_pitch, via_pitch)
+                array.SetFirstPadInArray(pads["*nbpads"]+1)
+                array.AddPadsToModule(self.draw)
 
         nb_pads_row = pads["*nbpads"] / 4;
         line_start = pads["pitch"] * (nb_pads_row - 1) / 2
@@ -69,7 +84,6 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         pad_center_l = (len_2 - pad_len + (pad_len+fillet)/2)
         pad_center_w = (wid_2 - pad_len + (pad_len+fillet)/2)
 
-        # BUG: pads["*oval"] needs to be filled as 1 or 0 to work correctly
         pad_shape = pcbnew.PAD_OVAL if pads["*oval"] else pcbnew.PAD_RECT
 
         v_pad = PA.PadMaker(self.module).SMDPad(pads["pad width"], pad_total, shape=pad_shape)
@@ -95,7 +109,7 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         array.SetFirstPadInArray(int(nb_pads_row*3 + 1))
         array.AddPadsToModule(self.draw)
 
-        self.draw.BoxWithDiagonalAtCorner(0, 0, pads["Length"], pads["Width"], 0)
+        self.draw.BoxWithDiagonalAtCorner(0, 0, pads["Length"], pads["Width"], pcbnew.FromMM(0.3))
         text_size = pcbnew.FromMM(1.2)
         self.draw.Value(0, pads["Width"] + fillet, text_size)
         self.draw.Reference(0, -pads["Width"] - fillet, text_size)
