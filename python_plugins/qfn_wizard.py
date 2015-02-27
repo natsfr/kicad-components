@@ -34,7 +34,7 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         
         self.AddParam("TPaste", "tpaste", self.uBool, True)
         self.AddParam("TPaste", "box rows", self.uNatural, 4)
-	self.AddParam("TPaste", "box cols", self.uNatural, 4)
+        self.AddParam("TPaste", "box cols", self.uNatural, 4)
         self.AddParam("TPaste", "percent", self.uNatural, 50)
 
         self.AddParam("TVias", "tvias", self.uBool, True)
@@ -52,6 +52,10 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         self.CheckParamBool("TVias", "*tvias")
         self.CheckParamBool("TPaste", "*tpaste")
 
+        self.CheckParamInt("TPaste", "*box rows", min_value=2)
+        self.CheckParamInt("TPaste", "*box cols", min_value=2)
+        self.CheckParamInt("TPaste", "*percent")
+
     def GetValue(self):
         return "QFN%d_%dx%dmm" % (self.parameters["Pads"]["*nbpads"],pcbnew.ToMM(self.parameters["Pads"]["Width"]),pcbnew.ToMM(self.parameters["Pads"]["Length"]))
 
@@ -59,28 +63,27 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         return "U"
 
     def DrawThermalPadSolderPaste(self, x, y, rows, cols, percent):
-	# Calculate the paste area given percentage
-	x_total_size = x / (math.sqrt(1/(percent/100)))
-	y_total_size = y / (math.sqrt(1/(percent/100)))
+        # Calculate the paste area given percentage
+        x_total_size = x / (math.sqrt(1/(percent/100)))
+        y_total_size = y / (math.sqrt(1/(percent/100)))
 
-	x_box = x_total_size / cols
-	y_box = y_total_size / cols
+        x_box = x_total_size / cols
+        y_box = y_total_size / cols
 
-	x_spacer = (x - cols * x_box) / (cols - 1)
-	y_spacer = (y - rows * y_box) / (rows -1)
+        x_spacer = (x - cols * x_box) / (cols - 1)
+        y_spacer = (y - rows * y_box) / (rows - 1)
 
         x_step = x_spacer + x_box
         y_step = y_spacer + y_box
 
-        
-	self.draw.SetLayer(pcbnew.F_Paste)
+        self.draw.SetLayer(pcbnew.F_Paste)
 
-	# Calculate position of each box
-	for i in range(0, rows -1):
-	        y_pos = (y_step * rows) / 2 - i * y_step
-	        for j in range(0, cols -1):
-	                x_pos = (x_step * cols) / 2 - j * x_step
-			self.draw.Box(x_pos, y_pos, x_box, y_box)
+        # Calculate position of each box
+        for i in range(0, rows - 1, 1):
+            y_pos = (y_step * rows) / 2 - i * y_step
+            for j in range(0, cols - 1, 1):
+                x_pos = (x_step * cols) / 2 - j * x_step
+                self.draw.Box(x_pos, y_pos, x_box, y_box)
 
         self.draw.SetLayer(pcbnew.F_SilkS)
 
@@ -88,7 +91,7 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         tpad = self.parameters["TPad"]
         pads = self.parameters["Pads"]
         tvias = self.parameters["TVias"]
-	tpaste = self.parameters["TPaste"]
+        tpaste = self.parameters["TPaste"]
 
         if(tpad["*tpad"]):
             thermal_pad = PA.PadMaker(self.module).SMDPad(tpad["W"], tpad["L"], pcbnew.PAD_RECT)
@@ -106,8 +109,8 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
                 array = ThermalViasArray(thermal_via, via_cols, via_rows, via_pitch, via_pitch)
                 array.SetFirstPadInArray(pads["*nbpads"]+1)
                 array.AddPadsToModule(self.draw)
-		if(tpaste["*tpaste"]):
-			self.DrawThermalPadSolderPaste(tpad["W"], tpad["L"], tpaste["*box rows"], tpaste["*box cols"], tpaste["*percent"])
+            if(tpaste["*tpaste"]):
+                self.DrawThermalPadSolderPaste(tpad["W"], tpad["L"], tpaste["*box rows"], tpaste["*box cols"], tpaste["*percent"])
 
         nb_pads_row = pads["*nbpads"] / 4;
         line_start = pads["pitch"] * (nb_pads_row - 1) / 2
