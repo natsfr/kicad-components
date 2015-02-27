@@ -87,17 +87,11 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         y_box = y_total_size / cols
 
         x_spacer = (x - cols * x_box) / (cols - 1)
-<<<<<<< HEAD
-        y_spacer = (y - rows * y_box) / (rows -1)
-=======
         y_spacer = (y - rows * y_box) / (rows - 1)
->>>>>>> b092e7204c3bd4d41a263be2a064dd6ae2bc6447
 
         x_step = x_spacer + x_box
         y_step = y_spacer + y_box
 
-<<<<<<< HEAD
-            
         self.draw.SetLayer(pcbnew.F_Paste)
 
         # Calculate position of each box
@@ -106,16 +100,6 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
                 for j in range(0, cols -1):
                         x_pos = (x_step * cols) / 2 - j * x_step
                         self.draw.FilledBox(x_pos, y_pos, x_box, y_box)
-=======
-        self.draw.SetLayer(pcbnew.F_Paste)
-
-        # Calculate position of each box
-        for i in range(0, rows - 1, 1):
-            y_pos = (y_step * rows) / 2 - i * y_step
-            for j in range(0, cols - 1, 1):
-                x_pos = (x_step * cols) / 2 - j * x_step
-                self.draw.Box(x_pos, y_pos, x_box, y_box)
->>>>>>> b092e7204c3bd4d41a263be2a064dd6ae2bc6447
 
         self.draw.SetLayer(pcbnew.F_SilkS)
 
