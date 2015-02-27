@@ -125,13 +125,9 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
                 array = ThermalViasArray(thermal_via, via_cols, via_rows, via_pitch, via_pitch)
                 array.SetFirstPadInArray(pads["*nbpads"]+1)
                 array.AddPadsToModule(self.draw)
-<<<<<<< HEAD
                 if(tpaste["*tpaste"]):
                     self.DrawThermalPadSolderPaste(tpad["W"], tpad["L"], tpaste["*box rows"], tpaste["*box cols"], tpaste["*percent"])
-=======
-            if(tpaste["*tpaste"]):
-                self.DrawThermalPadSolderPaste(tpad["W"], tpad["L"], tpaste["*box rows"], tpaste["*box cols"], tpaste["*percent"])
->>>>>>> b092e7204c3bd4d41a263be2a064dd6ae2bc6447
+
 
         nb_pads_row = pads["*nbpads"] / 4;
         line_start = pads["pitch"] * (nb_pads_row - 1) / 2
