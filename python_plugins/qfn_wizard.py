@@ -1,25 +1,11 @@
 from __future__ import division
 import pcbnew
+import pcbnew_easy as PEASY
 import HelpfulFootprintWizardPlugin as HFPW
 import FootprintWizardDrawingAids as FWDA
 import PadArray as PA
 
 import math
-
-class DrawZone(FWDA):
-    def FilledBox(self, x, y, w, h):
-        x1 = x - w/2
-        x2 = x + w/2
-        y1 = y - h/2
-        y2 = y + h/2
-        outline = pcbnew.EDGE_MODULE(self.module)
-        outline.SetWidth(self.dc['width'])
-        outline.SetLayer(self.dc['layer'])
-        outline.SetShape(pcbnew.S_RECT)
-        start = self.TransformPoint(x1, y1)
-        end = self.TransformPoint(x2, y2)
-        outline.SetStartEnd(start, end)
-        self.module.Add(outline)
 
 class ThermalViasArray(PA.PadGridArray):
     def NamingFunction(self, x, y):
@@ -92,16 +78,15 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         x_step = x_spacer + x_box
         y_step = y_spacer + y_box
 
-        self.draw.SetLayer(pcbnew.F_Paste)
+        # Use PAD as Paste only but Kicad complains
+        # Is it a valid use ?
+        pastepad = PA.PadMaker(self.module).SMDPad(x_box, y_box, pcbnew.PAD_RECT)
+        only_paste = pcbnew.LSET(pcbnew.F_Paste)
+        pastepad.SetLayerSet(only_paste)
 
-        # Calculate position of each box
-        for i in range(0, rows -1):
-                y_pos = (y_step * rows) / 2 - i * y_step
-                for j in range(0, cols -1):
-                        x_pos = (x_step * cols) / 2 - j * x_step
-                        self.draw.FilledBox(x_pos, y_pos, x_box, y_box)
-
-        self.draw.SetLayer(pcbnew.F_SilkS)
+        array = ThermalViasArray(pastepad, cols, rows, x_step, y_step)
+        array.SetFirstPadInArray(self.parameters["Pads"]["*nbpads"]+1)
+        array.AddPadsToModule(self.draw)
 
     def BuildThisFootprint(self):
         tpad = self.parameters["TPad"]
@@ -111,7 +96,17 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
 
         if(tpad["*tpad"]):
             thermal_pad = PA.PadMaker(self.module).SMDPad(tpad["W"], tpad["L"], pcbnew.PAD_RECT)
-            origin = pcbnew.wxPoint(0,0);
+
+            #SWIG bitset LSET problem, commented out waiting for a fix
+            #Please remove this Layer in the footprint editor
+            #no_paste_lset = pcbnew.LSET((pcbnew.F_Cu, pcbnew.F_Mask), 2)
+            #no_paste_lset = pcbnew.LSET(2, pcbnew.F_Cu, pcbnew.F_Mask)
+            #thermal_pad.SetLayerSet(no_paste_lset)
+            print PEASY.layer_dict
+            no_paste_lset = PEASY._to_LayerSet(('F.Cu', 'F.Mask'))
+            thermal_pad.SetLayerSet(no_paste_lset)
+
+            origin = pcbnew.wxPoint(0,0)
             array = PA.PadLineArray(thermal_pad, 1, 0, False)
             array.SetFirstPadInArray(pads["*nbpads"]+1)
             array.AddPadsToModule(self.draw)
@@ -127,7 +122,6 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
                 array.AddPadsToModule(self.draw)
                 if(tpaste["*tpaste"]):
                     self.DrawThermalPadSolderPaste(tpad["W"], tpad["L"], tpaste["*box rows"], tpaste["*box cols"], tpaste["*percent"])
-
 
         nb_pads_row = pads["*nbpads"] / 4;
         line_start = pads["pitch"] * (nb_pads_row - 1) / 2
