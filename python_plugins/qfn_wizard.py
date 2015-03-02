@@ -1,11 +1,38 @@
 from __future__ import division
 import pcbnew
-import pcbnew_easy as PEASY
 import HelpfulFootprintWizardPlugin as HFPW
 import FootprintWizardDrawingAids as FWDA
 import PadArray as PA
 
 import math
+
+class NewApiCompat:
+    #Please remove this code when new kicad python API will be the standard
+    #Please DO NOT USE THIS CLASS IN OTHER SCRIPT WITHOUT ASKING
+    #Ask on IRC if not sure.
+    def __init__(self):
+        self.layer_dict = {pcbnew.BOARD_GetStandardLayerName(n):n for n in range(pcbnew.LAYER_ID_COUNT)}
+        self.layer_names = {s:n for n, s in self.layer_dict.iteritems()}
+
+    def _get_layer(self,s):
+        """Get layer id from layer name"""
+        return self.layer_dict[s]
+
+    def _to_LayerSet(self,layers):
+        """Create LayerSet used for defining pad layers"""
+        bitset = 0
+        for l in layers:
+            bitset |= 1 << self._get_layer(l)
+        hexset = '{0:013x}'.format(bitset)
+        lset = pcbnew.LSET()
+        lset.ParseHex(hexset, len(hexset))
+        return lset
+
+    def _from_LayerSet(self,layerset):
+        mask = [c for c in layerset.FmtBin() if c in ('0','1')]
+        mask.reverse()
+        ids = [i for i, c in enumerate(mask) if c == '1']
+        return tuple(self.layer_names[i] for i in ids)
 
 class ThermalViasArray(PA.PadGridArray):
     def NamingFunction(self, x, y):
@@ -85,7 +112,8 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         pastepad.SetLayerSet(only_paste)
 
         array = ThermalViasArray(pastepad, cols, rows, x_step, y_step)
-        array.SetFirstPadInArray(self.parameters["Pads"]["*nbpads"]+1)
+        #array.SetFirstPadInArray(self.parameters["Pads"]["*nbpads"]+1)
+        array.SetFirstPadInArray('~')
         array.AddPadsToModule(self.draw)
 
     def BuildThisFootprint(self):
@@ -97,13 +125,9 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         if(tpad["*tpad"]):
             thermal_pad = PA.PadMaker(self.module).SMDPad(tpad["W"], tpad["L"], pcbnew.PAD_RECT)
 
-            #SWIG bitset LSET problem, commented out waiting for a fix
-            #Please remove this Layer in the footprint editor
-            #no_paste_lset = pcbnew.LSET((pcbnew.F_Cu, pcbnew.F_Mask), 2)
-            #no_paste_lset = pcbnew.LSET(2, pcbnew.F_Cu, pcbnew.F_Mask)
-            #thermal_pad.SetLayerSet(no_paste_lset)
-            print PEASY.layer_dict
-            no_paste_lset = PEASY._to_LayerSet(('F.Cu', 'F.Mask'))
+            # Use new kicad python api to have compatible layer set type
+            compat = NewApiCompat()
+            no_paste_lset = compat._to_LayerSet(('F.Cu', 'F.Mask'))
             thermal_pad.SetLayerSet(no_paste_lset)
 
             origin = pcbnew.wxPoint(0,0)
