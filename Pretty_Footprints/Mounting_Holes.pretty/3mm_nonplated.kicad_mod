@@ -1,0 +1,13 @@
+(module 3mm_nonplated (layer F.Cu) (tedit 54BE13E2)
+  (solder_mask_margin 1)
+  (clearance 1)
+  (zone_connect 0)
+  (fp_text reference 3mm_nonplated (at 0 -3.81) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 0 3.81) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask F.SilkS)
+    (zone_connect 0))
+)
