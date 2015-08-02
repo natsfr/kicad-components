@@ -1,4 +1,4 @@
-(module SMA_RA_PCB_Amphenol (layer F.Cu) (tedit 5531066D)
+(module SMA_RA_PCB_Amphenol (layer F.Cu) (tedit 55351701)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -17,5 +17,5 @@
   (pad 2 thru_hole circle (at -2.54 -2.54) (size 2.7 2.7) (drill 1.7) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at -2.54 2.54) (size 2.7 2.7) (drill 1.7) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 2.54 2.54) (size 2.7 2.7) (drill 1.7) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole circle (at 2.54 -2.54) (size 2.7 2.7) (drill 1.7) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 2.54 -2.54) (size 2.7 2.7) (drill 1.7) (layers *.Cu *.Mask F.SilkS))
 )
