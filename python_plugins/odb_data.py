@@ -4,25 +4,35 @@ import sys
 from pcbnew import *
 
 def gen_data_file(b):
-	s_header = "#\nHDR Kicad ODB-- Exporter by nats\n"
-	
-	# We get all layer
-	b.SetVisibleAlls()
-	ls = b.GetVisibleLayers()
-	
-	# Use awful black magic things you shouldn't see
-	compat = NewApiCompat()
-	layers_list = compat._from_LayerSet(ls)
-	
-	s_layers = "LYR "
-	for l in layers_list:
-		s_layers = s_layers + l + " "
-	
-	print s_layers
-	
-	print b.GetPadCount()
-	print b.GetNetCount()
-	print b.GetModules()
+    
+    # We get all layer
+    b.SetVisibleAlls()
+    ls = b.GetVisibleLayers()
+    
+    # Use awful black magic things you shouldn't see
+    compat = NewApiCompat()
+    layers_list = compat._from_LayerSet(ls)
+    
+    s_layers = "LYR "
+    for l in layers_list:
+        s_layers = s_layers + l + " "
+    
+def gen_comp_file(b):
+	# We get Component file
+	modules = b.GetModules()
+	for m in modules:
+		pos = m.GetPosition()
+		ori = m.GetOrientation()
+		ref = m.GetReference()
+		nb_pads = m.GetPadCount()
+		pads = m.Pads()
+		print ref
+		print nb_pads
+		print pos
+		print ori
+		for p in pads:
+			print p.GetPosition()
+		
 
 class NewApiCompat:
     #Please remove this code when new kicad python API will be the standard
@@ -31,6 +41,9 @@ class NewApiCompat:
     def __init__(self):
         self.layer_dict = {BOARD_GetStandardLayerName(n):n for n in range(LAYER_ID_COUNT)}
         self.layer_names = {s:n for n, s in self.layer_dict.iteritems()}
+        for l in self.layer_dict:
+            print l
+        #self.layer_odb_name = 
 
     def _get_layer(self,s):
         """Get layer id from layer name"""

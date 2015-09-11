@@ -1,0 +1,13 @@
+#
+#Feature symbol names
+#
+$0 r40.000
+#
+#Feature attribute names
+#
+@0 .drill
+#
+#Layer features
+#
+P 5.737402 -4.291339 0 P 72 0;0=0
+P 5.837402 -4.291339 0 P 72 0;0=0
