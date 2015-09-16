@@ -2,7 +2,7 @@
 
   (general
     (links 3)
-    (no_connects 2)
+    (no_connects 0)
     (area 122.891667 99.924999 172.108334 112.316)
     (thickness 1.6)
     (drawings 4)
@@ -108,7 +108,7 @@
   )
 
   (module Connectors_254mm:pin_array_2x1 (layer F.Cu) (tedit 54CE46FD) (tstamp 55F09A95)
-    (at 147 109)
+    (at 35.5 24.1)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /55F09A1E)
@@ -134,7 +134,7 @@
   )
 
   (module test:TEST_01x02_05mm (layer F.Cu) (tedit 55F1548A) (tstamp 55F1555C)
-    (at 167 105 180)
+    (at 55.5 20.1 180)
     (path /55F0991E)
     (attr smd)
     (fp_text reference P101 (at 0 1.5 180) (layer F.SilkS)
@@ -154,7 +154,7 @@
   )
 
   (module test:TEST_01x02_05mm (layer F.Cu) (tedit 55F1548A) (tstamp 55F15565)
-    (at 128 105)
+    (at 16.5 20.1)
     (path /55F09831)
     (attr smd)
     (fp_text reference P102 (at 0 1.5) (layer F.SilkS)
@@ -173,21 +173,21 @@
       (net 2 /HS_P))
   )
 
-  (gr_line (start 126 111) (end 169 111) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 126 111) (end 126 100) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 169 100) (end 169 111) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 126 100) (end 169 100) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 14.5 26.1) (end 57.5 26.1) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 14.5 26.1) (end 14.5 15.1) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 57.5 15.1) (end 57.5 26.1) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 14.5 15.1) (end 57.5 15.1) (layer Edge.Cuts) (width 0.15))
 
-  (segment (start 128 105.25) (end 128.75 105.25) (width 0.12) (layer F.Cu) (net 2))
-  (segment (start 166.12 105.12) (end 166.25 105.25) (width 0.12) (layer F.Cu) (net 2))
-  (segment (start 128.75 105.25) (end 128.88 105.12) (width 0.12) (layer F.Cu) (net 2))
-  (segment (start 128.88 105.12) (end 166.12 105.12) (width 0.12) (layer F.Cu) (net 2))
-  (segment (start 166.25 105.25) (end 167 105.25) (width 0.12) (layer F.Cu) (net 2))
-  (segment (start 166.12 104.88) (end 166.25 104.75) (width 0.12) (layer F.Cu) (net 3))
-  (segment (start 166.25 104.75) (end 167 104.75) (width 0.12) (layer F.Cu) (net 3))
-  (segment (start 128 104.75) (end 128.75 104.75) (width 0.12) (layer F.Cu) (net 3))
-  (segment (start 128.75 104.75) (end 128.88 104.88) (width 0.12) (layer F.Cu) (net 3))
-  (segment (start 128.88 104.88) (end 166.12 104.88) (width 0.12) (layer F.Cu) (net 3))
+  (segment (start 16.5 20.35) (end 17.25 20.35) (width 0.12) (layer F.Cu) (net 2))
+  (segment (start 54.62 20.22) (end 54.75 20.35) (width 0.12) (layer F.Cu) (net 2))
+  (segment (start 17.25 20.35) (end 17.38 20.22) (width 0.12) (layer F.Cu) (net 2))
+  (segment (start 17.38 20.22) (end 54.62 20.22) (width 0.12) (layer F.Cu) (net 2))
+  (segment (start 54.75 20.35) (end 55.5 20.35) (width 0.12) (layer F.Cu) (net 2))
+  (segment (start 54.62 19.98) (end 54.75 19.85) (width 0.12) (layer F.Cu) (net 3))
+  (segment (start 54.75 19.85) (end 55.5 19.85) (width 0.12) (layer F.Cu) (net 3))
+  (segment (start 16.5 19.85) (end 17.25 19.85) (width 0.12) (layer F.Cu) (net 3))
+  (segment (start 17.25 19.85) (end 17.38 19.98) (width 0.12) (layer F.Cu) (net 3))
+  (segment (start 17.38 19.98) (end 54.62 19.98) (width 0.12) (layer F.Cu) (net 3))
 
   (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads yes (clearance 0.15))
@@ -195,12 +195,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 126 100) (xy 169 100) (xy 169 111) (xy 126 111)
+        (xy 14.5 15.1) (xy 57.5 15.1) (xy 57.5 26.1) (xy 14.5 26.1)
       )
     )
     (filled_polygon
       (pts
-        (xy 168.7 110.7) (xy 126.3 110.7) (xy 126.3 100.3) (xy 168.7 100.3)
+        (xy 57.2 25.8) (xy 14.8 25.8) (xy 14.8 15.4) (xy 57.2 15.4)
       )
     )
   )

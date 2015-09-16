@@ -1,9 +1,10 @@
 import sys
 import os
 
-from odb_data import gen_comp_file
+from odb_data import *
 
 from pcbnew import *
+
 odb_name = sys.argv[1]
 step_name = sys.argv[2]
 brd_name = sys.argv[3]
@@ -23,4 +24,5 @@ if(not os.path.exists(odb_dir_root + "\/eda\/")):
 	exit()
 
 #s_data = gen_data_file(board);
-gen_comp_file(board)
+odb_instance = ODB_GEN()
+odb_instance.gen_comp_file(board)
