@@ -54,12 +54,21 @@ class ODB_GEN:
 			self.packages[pkg_name] = pkg
 		return pkg_name
 
+	# We get the module
+	# Copy it
+	# Reset rotation
+	# Put center 0
+	# Easy way to get the package model
 	def create_package(self, m, pkg_name):
-		rect = m.GetFootprintRect()
-		min = rect.GetOrigin()
-		max = rect.GetEnd()
+		center = m.GetPosition()
+		amin = rect.GetOrigin()
+		amax = rect.GetEnd()
 		pitch = self.get_pitch(m)
-		return Package(pkg_name, pitch, ToMils(min.x)/1000, ToMils(min.y)/1000, ToMils(max.x)/1000, ToMils(max.y)/1000)
+		#return Package(pkg_name, pitch, ToMils(min.x)/1000, ToMils(min.y)/1000, ToMils(max.x)/1000, ToMils(max.y)/1000)
+		rect = m.GetFootprintRect()
+		angle = m.GetOrientation()
+		model = m.Clone()
+		
 
 	# Closest Pair Problem to be optimised for big board !
 	def get_pitch(self, m):
@@ -92,12 +101,12 @@ class ODB_GEN:
 			name = p.GetPadName()
 			xc = p.GetPosition().x
 			yc = p.GetPosition().y
-			type = pin_attribute(p.GetAttribute())
+			t = pin_attribute(p.GetAttribute())
 			fhs = p.GetDrillSize()
 			# Unknown pad type see implementation details
 			etype = "U"
 			mtype = "U"
-			pkg.add_pin(PIN(name,type,xc,yc,fhs, etype,mtype,p))
+			pkg.add_pin(PIN(name,t,xc,yc,fhs, etype,mtype,p))
 
 	def write_pkg_file(self):
 		i = 0
@@ -111,7 +120,7 @@ class ODB_GEN:
 			print s
 
 class Package:
-	def __init__(self, name, pitch, xmin, ymin, xmax, ymax):
+	def __init__(self, name, pitch, xmin, ymin, xmax, ymax, pkg):
 		self.name = name
 		self.pitch = pitch
 		self.xmin = xmin
@@ -119,6 +128,7 @@ class Package:
 		self.xmax = xmax
 		self.ymax = ymax
 		self.pins = []
+		self.pkg = pkg
 	
 	def add_pin(self, pin):
 		self.pins.append(pin)

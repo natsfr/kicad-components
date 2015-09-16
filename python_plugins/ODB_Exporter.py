@@ -15,13 +15,13 @@ plot_dir = "%s\/" % odb_name
 odb_dir_root = plot_dir+"\/steps\/"+step_name
 
 # Generate EDA data
-if(not os.path.exists(odb_dir_root + "\/eda\/")):
-	print "Bad file tree\n"
-	exit()
+#if(not os.path.exists(odb_dir_root + "\/eda\/")):
+	#print "Bad file tree\n"
+	#exit()
 
-if(not os.path.exists(odb_dir_root + "\/eda\/")):
-	print "Bad file tree\n"
-	exit()
+#if(not os.path.exists(odb_dir_root + "\/eda\/")):
+	#print "Bad file tree\n"
+	#exit()
 
 #s_data = gen_data_file(board);
 odb_instance = ODB_GEN()
