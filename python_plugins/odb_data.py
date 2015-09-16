@@ -17,25 +17,23 @@ def gen_data_file(b):
         s_layers = s_layers + l + " "
     
 def gen_comp_file(b):
-	# 
+	# Generate the component file and package file
 	modules = b.GetModules()
 	for m in modules:
-		# pos = m.GetPosition()
-		# ori = m.GetOrientation()
-		# ref = m.GetReference()
-		# nb_pads = m.GetPadCount()
-		# pads = m.Pads()
-		# print ref
-		# print nb_pads
-		# print pos
-		# print ori
-		# for p in pads:
-			# print p.GetPosition()
+		print m.GetName()
+		create_package(m)
 		create_component(m)
 
 def create_component(m):
 	# Create module section in file
 	
+def create_package(m):
+	# Add package entry to EDA file
+	# Need to get the footprint name / size / pad
+	# Check if already existing
+	# If not create it
+	# return the dict entry
+	return
 
 class NewApiCompat:
     #Please remove this code when new kicad python API will be the standard
