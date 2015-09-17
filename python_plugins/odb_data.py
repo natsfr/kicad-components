@@ -6,8 +6,9 @@ from pcbnew import *
 
 class ODB_GEN:
 	def __init__(self):
-		self.packages = {}
-		self.components = {}
+		self.packages = []
+		self.pkg_n = []
+		self.components = []
 
 	# Abandonned function for now
 	# Usefull to generate the full copper part
@@ -26,11 +27,12 @@ class ODB_GEN:
 		
 	def gen_comp_file(self, b):
 		# Generate the component file and package file
+		self.b = b
 		modules = b.GetModules()
 		for m in modules:
 			print "Reference: " + m.GetReference()
 			print "Value: " + m.GetValue()
-			pkg = self.add_package(m)
+			self.add_package(m)
 			self.create_component(m)
 		self.write_pkg_file()
 
@@ -48,10 +50,13 @@ class ODB_GEN:
 		# so kicad developpers will be happy
 		lib_name = self.get_lib_name(m)
 		pkg_name = self.get_fp_name(m) + "-" + lib_name
-		if (not pkg_name in self.packages):
+		print self.packages
+		print pkg_name
+		if (not pkg_name in self.pkg_n):
 			pkg = self.create_package(m, pkg_name)
 			self.pop_pins(m, pkg)
-			self.packages[pkg_name] = pkg
+			self.pkg_n.append(pkg_name)
+			self.packages.append(pkg)
 		return pkg_name
 
 	# We get the module
@@ -60,15 +65,14 @@ class ODB_GEN:
 	# Put center 0
 	# Easy way to get the package model
 	def create_package(self, m, pkg_name):
-		center = m.GetPosition()
+		m.SetOrientation(0)
+		a = wxPoint(0,0)
+		m.SetPosition(a)
+		pitch = self.get_pitch(m)
+		rect = m.GetFootprintRect()
 		amin = rect.GetOrigin()
 		amax = rect.GetEnd()
-		pitch = self.get_pitch(m)
-		#return Package(pkg_name, pitch, ToMils(min.x)/1000, ToMils(min.y)/1000, ToMils(max.x)/1000, ToMils(max.y)/1000)
-		rect = m.GetFootprintRect()
-		angle = m.GetOrientation()
-		model = m.Clone()
-		
+		return Package(pkg_name, pitch, ToMils(amin.x)/1000, ToMils(amin.y)/1000, ToMils(amax.x)/1000, ToMils(amax.y)/1000,m)
 
 	# Closest Pair Problem to be optimised for big board !
 	def get_pitch(self, m):
@@ -106,16 +110,16 @@ class ODB_GEN:
 			# Unknown pad type see implementation details
 			etype = "U"
 			mtype = "U"
-			pkg.add_pin(PIN(name,t,xc,yc,fhs, etype,mtype,p))
+			pkg.add_pin(PIN(name,t,xc,yc,fhs,etype,mtype,p))
 
 	def write_pkg_file(self):
 		i = 0
-		for n,p in self.packages.iteritems():
+		for p in self.packages:
 			# write first line
 			s = "#\n# PKG %i\n" % i
 			s = "%sPKG %s %12.12f %12.12f %12.12f %12.12f %12.12f\n" % (s, p.name, p.pitch, p.xmin, p.ymin, p.xmax, p.ymax)
 			# do the outline 
-			s = "%sRC %12.12f %12.12f %12.12f %12.12f\n" % (s, p.xmin, p.ymin, p.xmax-p.xmin, p.ymax-p.ymax)
+			s = "%sRC %12.12f %12.12f %12.12f %12.12f\n" % (s, p.xmin, p.ymin, p.xmax-p.xmin, p.ymax-p.ymin)
 			i = i + 1
 			print s
 
