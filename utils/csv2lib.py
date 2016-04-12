@@ -39,8 +39,11 @@ class Part():
 		index = 0
 		p_index = 0
 		page_dict = dict()
-		posy = 0
-		posx = 0
+		posy = []
+		posx = []
+		for i in range(0, self.unit_count + 1):
+			posy.append(0)
+			posx.append(0)
 		for row in self.csv_stream.data:
 			if (index != 0):
 				pin_number = row[self.csv_stream.pack_col_index]
@@ -66,11 +69,12 @@ class Part():
 					''' For the moment we will only prepare the file for editing '''
 					''' posy = ((p_index * -1) - 1) * 50
 					posx = 100'''
+					page_num = int(pin_page)
 					if (direction == "L" or direction == "R"):
-						posy = posy - 50
+						posy[page_num] = posy[page_num] - 50
 					else:
-						posx = posx +50
-					self.pin_list.append(Pin(pin_number, pin_name, pin_type, direction, pin_page, posx, posy))
+						posx[page_num] = posx[page_num] +50
+					self.pin_list.append(Pin(pin_number, pin_name, pin_type, direction, pin_page, posx[page_num], posy[page_num]))
 					print(pin_number)
 					
 			index = index + 1
