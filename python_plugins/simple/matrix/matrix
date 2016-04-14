@@ -1,0 +1,42 @@
+
+STEP {
+    COL=1
+    NAME=pcbdata
+}
+
+
+LAYER {
+    ROW=1
+    CONTEXT=BOARD
+    TYPE=SIGNAL
+    NAME=simple-f_cu.gtl
+    POLARITY=POSITIVE
+}
+
+
+LAYER {
+    ROW=2
+    CONTEXT=BOARD
+    TYPE=SIGNAL
+    NAME=simple-b_cu.gbl
+    POLARITY=POSITIVE
+}
+
+
+LAYER {
+    ROW=3
+    CONTEXT=BOARD
+    TYPE=DRILL
+    NAME=simple.drl
+    POLARITY=POSITIVE
+}
+
+
+LAYER {
+    ROW=4
+    CONTEXT=BOARD
+    TYPE=DOCUMENT
+    NAME=simple-drl_map.gbr
+    POLARITY=POSITIVE
+}
+
