@@ -47,15 +47,15 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         return "QFN Wizard"
 
     def GenerateParameterList(self):
-        self.AddParam("Pads", "nbpads", self.uNatural, 20)
         self.AddParam("Pads", "pitch", self.uMM, 0.5)
         self.AddParam("Pads", "pad width", self.uMM, 0.25)
         self.AddParam("Pads", "pad length", self.uMM, 0.4)
-        self.AddParam("Pads", "pitch", self.uMM, 0.5)
         self.AddParam("Pads", "oval", self.uBool, True)
         self.AddParam("Pads", "Width", self.uMM, 4)
         self.AddParam("Pads", "Length", self.uMM, 4)
         self.AddParam("Pads", "Fillet", self.uMM, 0.3)
+        self.AddParam("Pads", "nbrows", self.uNatural, 5)
+        self.AddParam("Pads", "nbcols", self.uNatural, 5)
 
         self.AddParam("TPad", "tpad", self.uBool, True)
         self.AddParam("TPad", "W", self.uMM, 2.6)
@@ -74,8 +74,6 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         self.AddParam("TVias", "pitch", self.uMM, 1)
 
     def CheckParameters(self):
-        self.CheckParamInt("Pads", "*nbpads")
-        self.CheckParamInt("Pads", "*nbpads", is_multiple_of=4)
         self.CheckParamBool("Pads", "*oval")
         self.CheckParamBool("TPad", "*tpad")
         self.CheckParamBool("TVias", "*tvias")
@@ -86,7 +84,7 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         self.CheckParamInt("TPaste", "*percent")
 
     def GetValue(self):
-        return "QFN%d_%dx%dmm" % (self.parameters["Pads"]["*nbpads"],pcbnew.ToMM(self.parameters["Pads"]["Width"]),pcbnew.ToMM(self.parameters["Pads"]["Length"]))
+        return "QFN%d_%dx%dmm" % ((self.parameters["Pads"]["*nbcols"]+self.parameters["Pads"]["*nbrows"])*2,pcbnew.ToMM(self.parameters["Pads"]["Width"]),pcbnew.ToMM(self.parameters["Pads"]["Length"]))
 
     def GetReferencePrefix(self):
         return "U"
@@ -112,7 +110,6 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         pastepad.SetLayerSet(only_paste)
 
         array = ThermalViasArray(pastepad, cols, rows, x_step, y_step)
-        #array.SetFirstPadInArray(self.parameters["Pads"]["*nbpads"]+1)
         array.SetFirstPadInArray('~')
         array.AddPadsToModule(self.draw)
 
@@ -132,7 +129,7 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
 
             origin = pcbnew.wxPoint(0,0)
             array = PA.PadLineArray(thermal_pad, 1, 0, False)
-            array.SetFirstPadInArray(pads["*nbpads"]+1)
+            array.SetFirstPadInArray((pads["*nbrows"]+pads["*nbcols"])*2+1)
             array.AddPadsToModule(self.draw)
             if(tvias["*tvias"]):
                 via_size = tvias["size"]
@@ -142,12 +139,13 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
                 via_pitch = tvias["pitch"]
                 thermal_via = PA.PadMaker(self.module).THRoundPad(via_size, via_drill)
                 array = ThermalViasArray(thermal_via, via_cols, via_rows, via_pitch, via_pitch)
-                array.SetFirstPadInArray(pads["*nbpads"]+1)
+                array.SetFirstPadInArray((pads["*nbcols"]+pads["*nbrows"])*2+1)
                 array.AddPadsToModule(self.draw)
                 if(tpaste["*tpaste"]):
                     self.DrawThermalPadSolderPaste(tpad["W"], tpad["L"], tpaste["*box rows"], tpaste["*box cols"], tpaste["*percent"])
 
-        nb_pads_row = pads["*nbpads"] / 4;
+        nb_pads_row = pads["*nbrows"];
+        nb_pads_col = pads["*nbcols"];
         line_start = pads["pitch"] * (nb_pads_row - 1) / 2
 
         pad_len = pads["pad length"]
@@ -170,18 +168,18 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         array.AddPadsToModule(self.draw)
 
         pin1pos = pcbnew.wxPoint(0, pad_center_w)
-        array = PA.PadLineArray(h_pad, nb_pads_row, pads["pitch"], False, pin1pos)
+        array = PA.PadLineArray(h_pad, nb_pads_col, pads["pitch"], False, pin1pos)
         array.SetFirstPadInArray(int(nb_pads_row + 1))
         array.AddPadsToModule(self.draw)
 
         pin1pos = pcbnew.wxPoint(pad_center_l, 0)
         array = PA.PadLineArray(v_pad, nb_pads_row, -pads["pitch"], True, pin1pos)
-        array.SetFirstPadInArray(int(nb_pads_row*2 + 1))
+        array.SetFirstPadInArray(int(nb_pads_row+nb_pads_col + 1))
         array.AddPadsToModule(self.draw)
 
         pin1pos = pcbnew.wxPoint(0, -pad_center_w)
-        array = PA.PadLineArray(h_pad, nb_pads_row, -pads["pitch"], False, pin1pos)
-        array.SetFirstPadInArray(int(nb_pads_row*3 + 1))
+        array = PA.PadLineArray(h_pad, nb_pads_col, -pads["pitch"], False, pin1pos)
+        array.SetFirstPadInArray(int(nb_pads_row*2+nb_pads_col + 1))
         array.AddPadsToModule(self.draw)
 
         self.draw.BoxWithDiagonalAtCorner(0, 0, pads["Length"], pads["Width"], pcbnew.FromMM(0.3))
