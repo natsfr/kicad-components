@@ -60,6 +60,8 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         self.AddParam("TPad", "tpad", self.uBool, True)
         self.AddParam("TPad", "W", self.uMM, 2.6)
         self.AddParam("TPad", "L", self.uMM, 2.6)
+        self.AddParam("TPad", "X Offset", self.uMM, 0)
+        self.AddParam("TPad", "Y Offset", self.uMM, 0)
         
         self.AddParam("TPaste", "tpaste", self.uBool, True)
         self.AddParam("TPaste", "box rows", self.uNatural, 4)
@@ -89,7 +91,7 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
     def GetReferencePrefix(self):
         return "U"
 
-    def DrawThermalPadSolderPaste(self, x, y, rows, cols, percent):
+    def DrawThermalPadSolderPaste(self, x, y, rows, cols, percent, center):
         # Calculate the paste area given percentage
         x_total_size = x / (math.sqrt(1/(percent/100)))
         y_total_size = y / (math.sqrt(1/(percent/100)))
@@ -109,7 +111,7 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         only_paste = pcbnew.LSET(pcbnew.F_Paste)
         pastepad.SetLayerSet(only_paste)
 
-        array = ThermalViasArray(pastepad, cols, rows, x_step, y_step)
+        array = ThermalViasArray(pastepad, cols, rows, x_step, y_step, center)
         array.SetFirstPadInArray('~')
         array.AddPadsToModule(self.draw)
 
@@ -127,8 +129,8 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
             no_paste_lset = compat._to_LayerSet(('F.Cu', 'F.Mask'))
             thermal_pad.SetLayerSet(no_paste_lset)
 
-            origin = pcbnew.wxPoint(0,0)
-            array = PA.PadLineArray(thermal_pad, 1, 0, False)
+            origin = pcbnew.wxPoint(tpad["X Offset"],tpad["Y Offset"])
+            array = PA.PadLineArray(thermal_pad, 1, 0, False, origin)
             array.SetFirstPadInArray((pads["*nbrows"]+pads["*nbcols"])*2+1)
             array.AddPadsToModule(self.draw)
             if(tvias["*tvias"]):
@@ -138,11 +140,11 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
                 via_cols = tvias["*cols"]
                 via_pitch = tvias["pitch"]
                 thermal_via = PA.PadMaker(self.module).THRoundPad(via_size, via_drill)
-                array = ThermalViasArray(thermal_via, via_cols, via_rows, via_pitch, via_pitch)
+                array = ThermalViasArray(thermal_via, via_cols, via_rows, via_pitch, via_pitch, origin)
                 array.SetFirstPadInArray((pads["*nbcols"]+pads["*nbrows"])*2+1)
                 array.AddPadsToModule(self.draw)
                 if(tpaste["*tpaste"]):
-                    self.DrawThermalPadSolderPaste(tpad["W"], tpad["L"], tpaste["*box rows"], tpaste["*box cols"], tpaste["*percent"])
+                    self.DrawThermalPadSolderPaste(tpad["W"], tpad["L"], tpaste["*box rows"], tpaste["*box cols"], tpaste["*percent"], origin)
 
         nb_pads_row = pads["*nbrows"];
         nb_pads_col = pads["*nbcols"];
