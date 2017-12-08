@@ -96,14 +96,14 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
         x_total_size = x / (math.sqrt(1/(percent/100)))
         y_total_size = y / (math.sqrt(1/(percent/100)))
 
-        x_box = x_total_size / cols
-        y_box = y_total_size / cols
+        x_box = (x_total_size / cols)
+        y_box = (y_total_size / rows)
 
         x_spacer = (x - cols * x_box) / (cols - 1)
         y_spacer = (y - rows * y_box) / (rows - 1)
 
-        x_step = x_spacer + x_box
-        y_step = y_spacer + y_box
+        x_step = (x_spacer + x_box)*(x/y)
+        y_step = (y_spacer + y_box)*(x/y)
 
         # Use PAD as Paste only but Kicad complains
         # Is it a valid use ?
@@ -144,7 +144,7 @@ class QFNWizard(HFPW.HelpfulFootprintWizardPlugin):
                 array.SetFirstPadInArray((pads["*nbcols"]+pads["*nbrows"])*2+1)
                 array.AddPadsToModule(self.draw)
                 if(tpaste["*tpaste"]):
-                    self.DrawThermalPadSolderPaste(tpad["W"], tpad["L"], tpaste["*box rows"], tpaste["*box cols"], tpaste["*percent"], origin)
+                    self.DrawThermalPadSolderPaste(tpad["L"], tpad["W"], tpaste["*box rows"], tpaste["*box cols"], tpaste["*percent"], origin)
 
         nb_pads_row = pads["*nbrows"];
         nb_pads_col = pads["*nbcols"];
