@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
 # AMP_SMA_FLANGE_901-9887-RFX
@@ -47,7 +47,7 @@ S -100 50 -200 50 0 1 0 N
 S -100 75 -100 -75 0 1 0 N
 S -100 75 50 75 0 1 0 N
 S 50 -75 50 75 0 1 0 N
-X sig 1 150 0 100 L 25 25 1 1 W
+X sig 1 150 0 100 L 25 25 1 1 P
 X ~ 2 -75 -75 0 R 25 25 1 1 W
 ENDDRAW
 ENDDEF
