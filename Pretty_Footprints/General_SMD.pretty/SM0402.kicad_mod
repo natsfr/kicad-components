@@ -1,4 +1,4 @@
-(module SM0402 (layer F.Cu) (tedit 5C8A63E2)
+(module SM0402 (layer F.Cu) (tedit 5CDAB97C)
   (fp_text reference REF** (at 0 1.27) (layer F.SilkS)
     (effects (font (size 0.635 0.635) (thickness 0.15)))
   )
@@ -17,6 +17,11 @@
     (rotate (xyz 0 0 0))
   )
   (model ../../3D_Models/Standard/0402_1x0.5x0.35_resistor.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model /home/mehdi/Simpulse/dev_RF/kicad-components/3D_Models/Standard/0402_1x0.5x0.35_resistor.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

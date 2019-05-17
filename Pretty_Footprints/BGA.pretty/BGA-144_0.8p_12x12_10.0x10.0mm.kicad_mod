@@ -1,4 +1,4 @@
-(module BGA-144_0.8p_12x12_10.0x10.0mm (layer F.Cu) (tedit 5BDC62E5)
+(module BGA-144_0.8p_12x12_10.0x10.0mm (layer F.Cu) (tedit 5CDAC38D)
   (attr smd)
   (fp_text reference REF** (at 0 -6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -173,4 +173,9 @@
   (pad K12 smd circle (at 4.4 2.8) (size 0.45 0.45) (layers F.Cu F.Paste F.Mask))
   (pad L12 smd circle (at 4.4 3.6) (size 0.45 0.45) (layers F.Cu F.Paste F.Mask))
   (pad M12 smd circle (at 4.4 4.4) (size 0.45 0.45) (layers F.Cu F.Paste F.Mask))
+  (model /home/mehdi/Simpulse/dev_RF/kicad-components/3D_Models/BGA/BC-144-7_0.8mm_10x10x1.3mm.step
+    (offset (xyz 0 0 0.32))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
 )

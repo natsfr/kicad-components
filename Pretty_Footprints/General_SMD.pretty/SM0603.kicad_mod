@@ -1,4 +1,4 @@
-(module SM0603 (layer F.Cu) (tedit 54EC8D93)
+(module SM0603 (layer F.Cu) (tedit 5CDAD01A)
   (attr smd)
   (fp_text reference SM0603 (at 0 -1.27) (layer F.SilkS)
     (effects (font (size 0.508 0.4572) (thickness 0.1143)))
@@ -13,8 +13,13 @@
   (pad 1 smd rect (at -0.762 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask))
   (model smd\resistors\R0603.wrl
-    (at (xyz 0 0 0.001))
+    (offset (xyz 0 0 0.02539999961853028))
     (scale (xyz 0.5 0.5 0.5))
+    (rotate (xyz 0 0 0))
+  )
+  (model /home/mehdi/Simpulse/dev_RF/kicad-components/3D_Models/Standard/0603_1.6x0.8x0.45_resistor.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
