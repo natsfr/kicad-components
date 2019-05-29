@@ -15,7 +15,7 @@
   (fp_line (start -5.5 5.5) (end -5.5 -5.5) (layer F.CrtYd) (width 0.15))
   (pad 1 smd rect (at 0 4.5) (size 4.6 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 -4.5) (size 4.6 1.8) (layers F.Cu F.Paste F.Mask))
-  (model /home/mehdi/Simpulse/dev_RF/kicad-components/3D_Models/Wurth_Ind/STEP-WE-TPC-1038-rev1.stp
+  (model ${CUSTLIB}/3D_Models/Wurth_Ind/STEP-WE-TPC-1038-rev1.stp
     (offset (xyz 0 0 3.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

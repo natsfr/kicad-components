@@ -19,7 +19,7 @@
   (fp_line (start -5.5 8) (end -5.5 -8) (layer F.CrtYd) (width 0.15))
   (pad 1 smd rect (at 0 -4.8) (size 3 5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 4.8) (size 3 5) (layers F.Cu F.Paste F.Mask))
-  (model /home/mehdi/Simpulse/dev_RF/kicad-components/3D_Models/Panasonic_ECAP/SMD_FC_V_10x10.2mm.stp
+  (model ${CUSTLIB}/3D_Models/Panasonic_ECAP/SMD_FC_V_10x10.2mm.stp
     (offset (xyz 0 0 0.92))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

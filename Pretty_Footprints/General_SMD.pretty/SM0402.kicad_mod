@@ -21,7 +21,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model /home/mehdi/Simpulse/dev_RF/kicad-components/3D_Models/Standard/0402_1x0.5x0.35_resistor.step
+  (model ${CUSTLIB}/3D_Models/Standard/0402_1x0.5x0.35_resistor.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

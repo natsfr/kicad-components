@@ -26,7 +26,7 @@
   (pad 16 smd rect (at 1.52 3.81) (size 1.01 1.01) (layers F.Cu F.Paste F.Mask))
   (pad 17 smd rect (at 3.81 3.81) (size 1.01 1.01) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at 10.67 8.38) (size 1.01 1.01) (layers F.Cu F.Paste F.Mask))
-  (model /home/mehdi/Simpulse/dev_RF/kicad-components/3D_Models/Basic/12.19x12.19x7.25mm.step
+  (model ${CUSTLIB}/3D_Models/Basic/12.19x12.19x7.25mm.step
     (offset (xyz 6.1 -6.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

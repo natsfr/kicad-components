@@ -16,7 +16,7 @@
   (pad 1 smd rect (at 0 2.5) (size 1.1 5.08) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4.4 2.54) (size 1.5 5.08) (layers B.Cu B.Paste B.Mask))
   (pad 2 smd rect (at -4.4 2.54) (size 1.5 5.08) (layers B.Cu B.Paste B.Mask))
-  (model /home/mehdi/Simpulse/dev_RF/kicad-components/3D_Models/Connectors_RF/SMA_CINCH_142-0701-801_complete.step
+  (model ${CUSTLIB}/3D_Models/Connectors_RF/SMA_CINCH_142-0701-801_complete.step
     (offset (xyz 0 0.4 0.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 -90 0))
