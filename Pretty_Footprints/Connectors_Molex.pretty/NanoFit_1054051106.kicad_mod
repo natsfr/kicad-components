@@ -1,4 +1,4 @@
-(module NanoFit_1054051106 (layer F.Cu) (tedit 5D10EC91)
+(module NanoFit_1054051106 (layer F.Cu) (tedit 5D11D5E0)
   (fp_text reference REF** (at 7 7 90) (layer F.SilkS)
     (effects (font (size 0.635 0.635) (thickness 0.15)))
   )
@@ -30,4 +30,9 @@
   (pad 6 smd rect (at -2.5 1.65) (size 1.24 2.5) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at -5.07 6.58) (size 1.1 8.2) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 4.47 6.58) (size 1.1 8.2) (layers F.Cu F.Paste F.Mask))
+  (model ${CUSTLIB}/3D_Models/Molex/1054051106.stp
+    (offset (xyz 0 -2 3.3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
