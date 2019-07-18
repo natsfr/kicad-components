@@ -1,4 +1,4 @@
-(module PowerPAK_SO-8L_Single (layer F.Cu) (tedit 5D0943AD)
+(module PowerPAK_SO-8L_Single (layer F.Cu) (tedit 5D2B4B5F)
   (fp_text reference REF** (at 0 -6.5) (layer F.SilkS)
     (effects (font (size 0.635 0.635) (thickness 0.15)))
   )
@@ -19,7 +19,7 @@
   (pad 3 smd rect (at 0.635 2.715) (size 0.41 0.82) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 1.905 2.715) (size 0.41 0.82) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd custom (at 0 0) (size 0.41 0.82) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
