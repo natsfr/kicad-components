@@ -1,4 +1,4 @@
-(module BergStack_61083-104400LF (layer F.Cu) (tedit 5BA79B3D)
+(module BergStack_61083-104400LF (layer F.Cu) (tedit 5D7BF1E7)
   (fp_text reference REF** (at 0 -6.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -116,4 +116,9 @@
   (pad 100 smd rect (at 19.6 2.2) (size 0.5 2) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at 22.1 0) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -22.1 0) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
+  (model ${CUSTLIB}/3D_Models/Bergstak/61083-101400LF.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
