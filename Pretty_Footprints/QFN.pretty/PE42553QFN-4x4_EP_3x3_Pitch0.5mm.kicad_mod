@@ -1,4 +1,4 @@
-(module PE42553QFN-4x4_EP_3x3_Pitch0.5mm (layer F.Cu) (tedit 5CC03B49)
+(module PE42553QFN-4x4_EP_3x3_Pitch0.5mm (layer F.Cu) (tedit 5D8C73AD)
   (attr smd)
   (fp_text reference REF** (at 0 -1.95) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -51,4 +51,9 @@
   (pad 17 thru_hole circle (at -0.4375 0.4375) (size 0.4375 0.4375) (drill 0.3) (layers *.Cu *.Mask))
   (pad 17 thru_hole circle (at 0.4375 -0.4375) (size 0.4375 0.4375) (drill 0.3) (layers *.Cu *.Mask))
   (pad 17 thru_hole circle (at 0.4375 0.4375) (size 0.4375 0.4375) (drill 0.3) (layers *.Cu *.Mask))
+  (model ${CUSTLIB}/3D_Models/Basic/3x3x0.85mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

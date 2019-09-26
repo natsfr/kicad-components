@@ -1,4 +1,4 @@
-(module SKY66292-11_QFN-4x4_EP_5x5_Pitch0.8mm (layer F.Cu) (tedit 5D67A9A2)
+(module SKY66292-11_QFN-4x4_EP_5x5_Pitch0.8mm (layer F.Cu) (tedit 5D8C7576)
   (attr smd)
   (fp_text reference REF** (at 0 -2.3925) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -65,4 +65,9 @@
   (pad 17 thru_hole circle (at 0.956666 -0.956666) (size 0.478333 0.478333) (drill 0.25) (layers *.Cu *.Mask))
   (pad 17 thru_hole circle (at 0.956666 0) (size 0.478333 0.478333) (drill 0.25) (layers *.Cu *.Mask))
   (pad 17 thru_hole circle (at 0.956666 0.956666) (size 0.478333 0.478333) (drill 0.25) (layers *.Cu *.Mask))
+  (model ${CUSTLIB}/3D_Models/Basic/5x5x1.3mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

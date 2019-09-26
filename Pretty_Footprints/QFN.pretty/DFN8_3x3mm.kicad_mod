@@ -1,4 +1,4 @@
-(module DFN8_3x3mm (layer F.Cu) (tedit 5A242AC2)
+(module DFN8_3x3mm (layer F.Cu) (tedit 5D8C77DB)
   (fp_text reference U** (at 0 -3.6) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )
@@ -27,4 +27,9 @@
   (pad 6 smd oval (at 1.6 0.25) (size 1 0.25) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd oval (at 1.6 -0.25) (size 1 0.25) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd oval (at 1.6 -0.75) (size 1 0.25) (layers F.Cu F.Paste F.Mask))
+  (model ${CUSTLIB}/3D_Models/Basic/3x3x0.85mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
