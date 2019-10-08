@@ -1,4 +1,4 @@
-(module QFN-16_EP_4x4_Pitch0.65mm (layer F.Cu) (tedit 5C8915FB)
+(module QFN-16_EP_4x4_Pitch0.65mm (layer F.Cu) (tedit 5D8CC717)
   (attr smd)
   (fp_text reference U7 (at -1.95 -3.7 -270) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -51,4 +51,9 @@
   (pad 17 thru_hole circle (at -0.525 0.525) (size 0.525 0.525) (drill 0.3) (layers *.Cu *.Mask))
   (pad 17 thru_hole circle (at 0.525 -0.525) (size 0.525 0.525) (drill 0.3) (layers *.Cu *.Mask))
   (pad 17 thru_hole circle (at 0.525 0.525) (size 0.525 0.525) (drill 0.3) (layers *.Cu *.Mask))
+  (model ${CUSTLIB}/3D_Models/Basic/4x4x0.75mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
