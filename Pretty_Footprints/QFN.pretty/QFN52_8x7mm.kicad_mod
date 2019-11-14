@@ -1,4 +1,5 @@
-(module QFN52_8x7mm (layer F.Cu) (tedit 0)
+(module QFN52_8x7mm (layer F.Cu) (tedit 5DC2E3B4)
+  (attr smd)
   (fp_text reference U** (at 0 -8.5) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )

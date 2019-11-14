@@ -1,4 +1,4 @@
-(module Qorvo_QPA4501_QFN-12x6_EP_10x6_Pitch0.71mm (layer F.Cu) (tedit 0)
+(module Qorvo_QPA4501_QFN-12x6_EP_10x6_Pitch0.71mm (layer F.Cu) (tedit 5DC2E3BA)
   (attr smd)
   (fp_text reference REF** (at 0 -2.7375) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

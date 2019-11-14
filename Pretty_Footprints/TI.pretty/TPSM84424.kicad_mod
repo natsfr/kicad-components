@@ -1,4 +1,4 @@
-(module TPSM84424 (layer F.Cu) (tedit 5D1BD3BE)
+(module TPSM84424 (layer F.Cu) (tedit 5DCD6108)
   (fp_text reference REF** (at 0 -7.1) (layer F.SilkS)
     (effects (font (size 0.635 0.635) (thickness 0.15)))
   )
@@ -50,4 +50,9 @@
   (pad 22 thru_hole circle (at -0.2 -1.1) (size 0.8 0.8) (drill 0.3) (layers *.Cu *.Mask))
   (pad 22 thru_hole circle (at -0.2 -3.3) (size 0.8 0.8) (drill 0.3) (layers *.Cu *.Mask))
   (pad 22 thru_hole circle (at -0.2 -2.2) (size 0.8 0.8) (drill 0.3) (layers *.Cu *.Mask))
+  (model ${CUSTLIB}/3D_Models/TI/TPSM84424.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
