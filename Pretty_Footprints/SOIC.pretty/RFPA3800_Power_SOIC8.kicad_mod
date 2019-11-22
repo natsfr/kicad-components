@@ -1,4 +1,4 @@
-(module RFPA3800_Power_SOIC8 (layer F.Cu) (tedit 5D9C534C)
+(module RFPA3800_Power_SOIC8 (layer F.Cu) (tedit 5DD52696)
   (attr smd)
   (fp_text reference REF** (at -3.705 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -24,4 +24,9 @@
   (pad 5 smd rect (at 1.905 -2.5) (size 0.6 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 1.905 2.5) (size 0.6 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 0 0) (size 3.3 2.4) (layers F.Cu F.Paste F.Mask))
+  (model "${CUSTLIB}/3D_Models/SOIC/SOIC08 narrow.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

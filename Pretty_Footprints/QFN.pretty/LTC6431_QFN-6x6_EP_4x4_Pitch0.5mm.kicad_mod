@@ -1,4 +1,4 @@
-(module LTC6431_QFN-6x6_EP_4x4_Pitch0.5mm (layer F.Cu) (tedit 5D9C5BE0)
+(module LTC6431_QFN-6x6_EP_4x4_Pitch0.5mm (layer F.Cu) (tedit 5DD524BB)
   (attr smd)
   (fp_text reference REF** (at 0 -2.175) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -59,4 +59,9 @@
   (pad 25 thru_hole circle (at -0.6125 0.6125) (size 0.6125 0.6125) (drill 0.15) (layers *.Cu *.Mask))
   (pad 25 thru_hole circle (at 0.6125 -0.6125) (size 0.6125 0.6125) (drill 0.15) (layers *.Cu *.Mask))
   (pad 25 thru_hole circle (at 0.6125 0.6125) (size 0.6125 0.6125) (drill 0.15) (layers *.Cu *.Mask))
+  (model ${CUSTLIB}/3D_Models/Basic/4x4x0.75mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
