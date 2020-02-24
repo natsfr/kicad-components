@@ -1,4 +1,5 @@
-(module DEA162500LT-1217A1 (layer F.Cu) (tedit 5BC9EF12)
+(module DEA162500LT-1217A1 (layer F.Cu) (tedit 5E203D99)
+  (attr smd)
   (fp_text reference REF** (at 0 -4) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
