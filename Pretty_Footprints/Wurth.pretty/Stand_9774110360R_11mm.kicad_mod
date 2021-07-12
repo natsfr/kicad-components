@@ -1,0 +1,16 @@
+(module Stand_9774110360R_11mm (layer F.Cu) (tedit 60C0C95C)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Stand_9774110360R_11mm (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 3.3 1.9) (layer F.SilkS) (width 0.12))
+  (fp_circle (center 0 0) (end 2.3 3.2) (layer F.CrtYd) (width 0.12))
+  (pad 1 thru_hole circle (at 0 0) (size 7.4 7.4) (drill 4.4) (layers *.Cu *.Mask))
+  (model ${CUSTLIB}/3D_Models/Wurth_Con/Stand_9774110360_11mm.stp
+    (offset (xyz 0 0 11.06))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
+)
