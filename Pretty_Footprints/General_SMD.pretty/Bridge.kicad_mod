@@ -1,0 +1,34 @@
+(module Bridge (layer F.Cu) (tedit 6175EE33)
+  (attr smd)
+  (fp_text reference REF** (at 0 1.27) (layer F.SilkS)
+    (effects (font (size 0.635 0.635) (thickness 0.15)))
+  )
+  (fp_text value bridge (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_poly (pts (xy 0.3 0.2) (xy -0.1 0.2) (xy -0.1 -0.2) (xy 0.3 -0.2)) (layer F.Mask) (width 0.1))
+  (pad 2 smd custom (at 0.35 0) (size 0.1 0.1) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0.25) (xy 0.25 0) (xy 0 -0.25) (xy -0.25 -0.25) (xy 0 0)
+         (xy -0.25 0.25)) (width 0.1))
+    ))
+  (pad 1 smd trapezoid (at 0 0) (size 0.3 0.3) (rect_delta 0.25 0 ) (layers F.Cu F.Paste F.Mask))
+  (model ../../3D_Models/Standard/0402_1x0.5x0.35_resistor.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ../../3D_Models/Standard/0402_1x0.5x0.35_resistor.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${CUSTLIB}/3D_Models/Standard/0402_1x0.5x0.35_resistor.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
