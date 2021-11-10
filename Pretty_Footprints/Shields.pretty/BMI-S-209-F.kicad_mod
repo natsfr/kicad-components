@@ -1,4 +1,4 @@
-(module BMI-S-209-F (layer F.Cu) (tedit 5B0359B9)
+(module BMI-S-209-F (layer F.Cu) (tedit 6141DE3D)
   (fp_text reference REF** (at 0 7.62) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -21,4 +21,9 @@
   (pad 1 smd rect (at 15.08 -18.8 90) (size 1 3.8) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 21.08 -18.8 90) (size 1 3.8) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 21.08 -0.5 90) (size 1 3.8) (layers F.Cu F.Paste F.Mask))
+  (model ${CUSTLIB}/3D_Models/Laird/bmi-s-209-assembly-stp-file.STEP
+    (offset (xyz 0 0 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
