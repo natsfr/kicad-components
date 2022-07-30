@@ -6,7 +6,7 @@
     (property "Value" "RA-02_uFL" (id 1) (at 0 8.89 0)
       (effects (font (size 0.635 0.635)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "RF_Module:RA-02_Lora" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
