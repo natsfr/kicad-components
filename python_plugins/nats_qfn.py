@@ -239,7 +239,10 @@ class QFNWizard(FootprintWizardBase.FootprintWizard):
         self.draw.Reference(0, -text_offset, text_size)
 
         # set SMD attribute
-        self.module.SetAttributes(pcbnew.MOD_CMS)
+        # Kicad 6
+        #self.module.SetAttributes(pcbnew.MOD_CMS)
+        # Kicad 7
+        self.module.SetAttributes(pcbnew.PAD_ATTRIB_SMD)
 
 QFNWizard().register()
 
