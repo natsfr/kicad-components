@@ -29,4 +29,9 @@
     (thermal_bridge_angle 45) (tstamp 14da6ae3-ab8a-420c-93ac-08d87acf5133))
   (pad "5" smd rect (at 1.7 -1.27) (size 1.4 0.76) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp a24ad597-1d05-4dde-b094-a488b33770b7))
+  (model ":CUSTLIB:3D_Models/Macom/etc1-1-13.step"
+    (offset (xyz 1.7 1.25 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
