@@ -1,33 +1,51 @@
-(module Bridge (layer F.Cu) (tedit 6175EE33)
+(footprint "Bridge" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
   (attr smd)
-  (fp_text reference REF** (at 0 1.27) (layer F.SilkS)
-    (effects (font (size 0.635 0.635) (thickness 0.15)))
+  (fp_text reference "REF**" (at 0 1.27) (layer "F.SilkS")
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    (tstamp e42aa468-2ab4-4280-991f-c165fab93a51)
   )
-  (fp_text value bridge (at 0 -0.5) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value "bridge" (at 0 -0.5) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp fdcead36-c5b2-4492-90e6-13d0bfedf523)
   )
-  (fp_poly (pts (xy 0.3 0.2) (xy -0.1 0.2) (xy -0.1 -0.2) (xy 0.3 -0.2)) (layer F.Mask) (width 0.1))
-  (pad 2 smd custom (at 0.35 0) (size 0.1 0.1) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+  (fp_poly
+    (pts
+      (xy 0.5 0.2)
+      (xy -0.1 0.2)
+      (xy -0.1 -0.2)
+      (xy 0.5 -0.2)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp 839f2156-f376-45a4-8dd3-891f444942d2))
+  (pad "1" smd trapezoid (at 0 0) (size 0.3 0.3) (rect_delta 0.25 0) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3f3d00ba-f0c3-4c63-8bc9-cfb380e253d6))
+  (pad "2" smd custom (at 0.5 0) (size 0.1 0.1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (zone_connect 0) (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
-      (gr_poly (pts
-         (xy 0 0.25) (xy 0.25 0) (xy 0 -0.25) (xy -0.25 -0.25) (xy 0 0)
-         (xy -0.25 0.25)) (width 0.1))
-    ))
-  (pad 1 smd trapezoid (at 0 0) (size 0.3 0.3) (rect_delta 0.25 0 ) (layers F.Cu F.Paste F.Mask))
-  (model ../../3D_Models/Standard/0402_1x0.5x0.35_resistor.step
-    (at (xyz 0 0 0))
+      (gr_poly
+        (pts
+          (xy 0 0.25)
+          (xy 0.25 0)
+          (xy 0 -0.25)
+          (xy -0.25 -0.25)
+          (xy 0 0)
+          (xy -0.25 0.25)
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp fe80e011-581f-4e92-a888-e56355b3634d))
+  (model "../../3D_Models/Standard/0402_1x0.5x0.35_resistor.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ../../3D_Models/Standard/0402_1x0.5x0.35_resistor.step
-    (at (xyz 0 0 0))
+  (model "../../3D_Models/Standard/0402_1x0.5x0.35_resistor.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${CUSTLIB}/3D_Models/Standard/0402_1x0.5x0.35_resistor.step
-    (at (xyz 0 0 0))
+  (model "${CUSTLIB}/3D_Models/Standard/0402_1x0.5x0.35_resistor.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

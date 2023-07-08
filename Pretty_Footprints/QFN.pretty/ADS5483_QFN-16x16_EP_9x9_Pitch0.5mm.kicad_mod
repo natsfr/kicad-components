@@ -1,6 +1,6 @@
 (footprint "ADS5483_QFN-16x16_EP_9x9_Pitch0.5mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -3.45) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 980e0bd2-46fb-41cc-9d99-0c84ed48683c)
