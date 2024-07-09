@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "QFN:Qorvo-TQL9062_QFN-0x4_EP_2x2_Pitch0.5mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63,7 +63,7 @@
 			)
 		)
 		(symbol "TQL9062_1_1"
-			(pin no_connect line
+			(pin passive line
 				(at -5.08 3.81 0)
 				(length 1.27)
 				(name "NC"
@@ -99,7 +99,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -5.08 -1.27 0)
 				(length 1.27)
 				(name "NC"
@@ -117,7 +117,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -5.08 -3.81 0)
 				(length 1.27)
 				(name "NC"
@@ -135,7 +135,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 5.08 -3.81 180)
 				(length 1.27)
 				(name "NC"
@@ -189,7 +189,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 5.08 3.81 180)
 				(length 1.27)
 				(name "NC"
@@ -200,6 +200,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -6.35 90)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 0.635 0.635)
