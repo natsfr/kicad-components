@@ -49,6 +49,24 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "MOUSER"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "595-TXS02612RTWR "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "TX02612RTWR_0_1"
 			(rectangle
 				(start -3.81 21.59)

@@ -49,6 +49,24 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "MOUSER"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "710-7498111124 "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "7498111124_0_1"
 			(rectangle
 				(start -10.16 16.51)

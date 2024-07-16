@@ -49,6 +49,24 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "MOUSER"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "SS5-80-3.50-L-D-K-TR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "TE0724-41I33-A_1_1"
 			(rectangle
 				(start -6.35 45.72)

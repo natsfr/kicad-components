@@ -2,43 +2,42 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "Xilinx_14x2mm"
-		(pin_names
-			(offset 1.016)
-		)
+	(symbol "QPL9058"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J"
-			(at -1.27 6.35 0)
+		(property "Reference" "U"
+			(at 0 7.62 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Value" "Xilinx_14x2mm"
-			(at 0 -6.35 0)
+		(property "Value" "QPL9058"
+			(at 0.254 5.842 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "QFN:QPL9058_QFN-0x4_EP_2x2_Pitch0.5mm"
 			(at 0 0 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -50,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "MOUSER"
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59,7 +58,7 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "538-87832-1420 "
+		(property "SKU" "772-QPL9058TR7"
 			(at 0 0 0)
 			(effects
 				(font
@@ -68,7 +67,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Xilinx_14x2mm_0_1"
+		(symbol "QPL9058_0_1"
 			(rectangle
 				(start -3.81 5.08)
 				(end 3.81 -5.08)
@@ -81,11 +80,11 @@
 				)
 			)
 		)
-		(symbol "Xilinx_14x2mm_1_1"
+		(symbol "QPL9058_1_1"
 			(pin power_in line
 				(at -5.08 3.81 0)
 				(length 1.27)
-				(name "GND"
+				(name "Vbias"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -101,99 +100,9 @@
 				)
 			)
 			(pin input line
-				(at 5.08 -1.27 180)
+				(at -5.08 1.27 0)
 				(length 1.27)
-				(name "TDI"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 -2.54 0)
-				(length 1.27)
-				(name "GND"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 5.08 -2.54 180)
-				(length 1.27)
-				(name "NC"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 -3.81 0)
-				(length 1.27)
-				(name "GND"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 5.08 -3.81 180)
-				(length 1.27)
-				(name "NC"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 5.08 3.81 180)
-				(length 1.27)
-				(name "VCC"
+				(name "RFin"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -208,10 +117,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -5.08 2.54 0)
+			(pin passive line
+				(at -5.08 -1.27 0)
 				(length 1.27)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -226,10 +135,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 5.08 2.54 180)
+			(pin passive line
+				(at -5.08 -3.81 0)
 				(length 1.27)
-				(name "TMS"
+				(name "NC"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -244,10 +153,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -5.08 1.27 0)
+			(pin input line
+				(at 5.08 -3.81 180)
 				(length 1.27)
-				(name "GND"
+				(name "SD"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -262,10 +171,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 5.08 1.27 180)
+			(pin power_in line
+				(at 5.08 -1.27 180)
 				(length 1.27)
-				(name "TCLK"
+				(name "GND"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -280,10 +189,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -5.08 0 0)
+			(pin output line
+				(at 5.08 1.27 180)
 				(length 1.27)
-				(name "GND"
+				(name "RFout"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -298,10 +207,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 5.08 0 180)
+			(pin passive line
+				(at 5.08 3.81 180)
 				(length 1.27)
-				(name "TDO"
+				(name "NC"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -317,7 +226,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -1.27 0)
+				(at 0 -6.35 90)
 				(length 1.27)
 				(name "GND"
 					(effects
