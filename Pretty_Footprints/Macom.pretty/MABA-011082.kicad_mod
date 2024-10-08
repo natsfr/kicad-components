@@ -143,4 +143,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "58b9cfa3-d407-442c-ae9b-ef5dc826736e")
 	)
+	(model "${CUSTLIB}/3D_Models/Macom/etc1-1-13.step"
+		(offset
+			(xyz -1.6 -1.27 0.02)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )

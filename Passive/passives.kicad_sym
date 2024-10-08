@@ -3582,6 +3582,168 @@
 			)
 		)
 	)
+	(symbol "LED_RGB_2"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LED_RGB_2_0_1"
+			(rectangle
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED_RGB_2_1_1"
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "CA"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "RK"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "BK"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "GK"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "LED_TPAD"
 		(pin_numbers hide)
 		(pin_names

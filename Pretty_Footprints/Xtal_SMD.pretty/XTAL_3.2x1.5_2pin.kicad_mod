@@ -1,4 +1,4 @@
-(footprint "WE-PD_7.3x7.3x4.5"
+(footprint "XTAL_3.2x1.5_2pin"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "4f01bc85-9f1f-4058-87e7-0cdfa73d09aa")
+		(uuid "bf830bc9-bfc9-47d0-b96f-ab3947e295bb")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "WE-PD_7.3x7.3x4.5"
+	(property "Value" "XTAL_3.2x1.5_2pin"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "568c4bae-c4e2-4497-99b6-f4ec6f536be1")
+		(uuid "983f1a45-8275-4e28-9bbc-395fcac66a45")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "41c6986e-236b-4de6-a92c-c47b84b14493")
+		(uuid "8f0f52e9-fa49-4c3f-8ff4-53c5b2d9868b")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eb17ad32-1ab3-4911-87e0-31149ec146f4")
+		(uuid "3e328afb-8220-4ead-bd11-b021dfa44c2d")
 		(effects
 			(font
 				(size 1 1)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4407239d-cfcb-40f1-9917-971ad701983e")
+		(uuid "a14ac32e-ff6e-4e79-9b4c-ff645bdfc084")
 		(effects
 			(font
 				(size 1 1)
@@ -68,32 +68,32 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -3.65 -3.65)
-		(end 3.65 3.65)
+		(start -1.6 -1)
+		(end 1.6 1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "3e79a155-6d01-43da-b415-17572fce5ca9")
+		(uuid "7208495b-7779-4163-b9bf-e580376f4467")
 	)
 	(fp_rect
-		(start -4 -4)
-		(end 4 4)
+		(start -2.4 -1)
+		(end 2.4 1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "9a9b2ba9-036f-44c8-9159-47be1e6c2c8e")
+		(uuid "97da98de-5762-471a-b2c1-7b87c86026f3")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3b8135fd-5965-4e6c-8c75-e874a2e7f9ea")
+		(uuid "14eca041-fb3a-48f1-8696-efc524db8896")
 		(effects
 			(font
 				(size 1 1)
@@ -102,28 +102,15 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 0 -3.2)
-		(size 2.2 1.6)
+		(at -1.6 0)
+		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "108bbbc6-69de-44ad-99f1-530bc0d1ab44")
+		(uuid "a6b93152-98ed-44e3-9454-1ea5d5f7d288")
 	)
 	(pad "2" smd rect
-		(at 0 3.2)
-		(size 2.2 1.6)
+		(at 1.6 0)
+		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "ceb85659-0168-41c3-aaf4-f8584b10308d")
-	)
-	(model "${CUSTLIB}/3D_Models/Wurth_Ind/STEP_WE-PD_7345_STP_rev1.stp"
-		(offset
-			(xyz 0 0 0.45)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 90)
-		)
+		(uuid "3dd49700-91c5-49be-825d-63de3babd1c4")
 	)
 )

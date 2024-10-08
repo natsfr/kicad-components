@@ -953,4 +953,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "d7759df4-6723-40d4-ac34-7057c9cd41bb")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-100_14x14mm_P0.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

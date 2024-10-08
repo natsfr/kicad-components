@@ -115,4 +115,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "0e5cf87f-b38d-40b8-b2d1-7193186655dc")
 	)
+	(model "${CUSTLIB}/3D_Models/Wurth_Ind/STEP_WE-PD_1210_STP_rev1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
