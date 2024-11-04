@@ -401,14 +401,6 @@
 		(thermal_bridge_angle 45)
 		(uuid "de4f6e72-73ea-4b6d-8134-c6856c492599")
 	)
-	(pad "25" thru_hole circle
-		(at -0.675 -0.675)
-		(size 0.675 0.675)
-		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "dedbef7a-59fd-44ef-8edf-9e691ba46caf")
-	)
 	(pad "25" smd rect
 		(at -0.675 -0.675)
 		(size 1.35 1.35)
@@ -416,14 +408,6 @@
 		(solder_paste_margin -0.1)
 		(thermal_bridge_angle 45)
 		(uuid "5423e50c-34b1-49e9-a844-8645f9bd0d2b")
-	)
-	(pad "25" thru_hole circle
-		(at -0.675 0.675)
-		(size 0.675 0.675)
-		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "8d092bb0-332b-49be-bce5-dbdfef80947d")
 	)
 	(pad "25" smd rect
 		(at -0.675 0.675)
@@ -433,14 +417,6 @@
 		(thermal_bridge_angle 45)
 		(uuid "1c738b98-09c7-4df4-8fb1-4656eda992be")
 	)
-	(pad "25" thru_hole circle
-		(at 0.675 -0.675)
-		(size 0.675 0.675)
-		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "79f42834-3141-45d4-a6b7-fd659e7501ad")
-	)
 	(pad "25" smd rect
 		(at 0.675 -0.675)
 		(size 1.35 1.35)
@@ -448,14 +424,6 @@
 		(solder_paste_margin -0.1)
 		(thermal_bridge_angle 45)
 		(uuid "97bb3cfa-8966-4590-bd1c-db845cfb9789")
-	)
-	(pad "25" thru_hole circle
-		(at 0.675 0.675)
-		(size 0.675 0.675)
-		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "f0305009-e547-47b6-953f-68130f02286b")
 	)
 	(pad "25" smd rect
 		(at 0.675 0.675)
