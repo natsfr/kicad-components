@@ -202,4 +202,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "6c5d8a8d-8412-46fe-b3ec-9382943fbc4c")
 	)
+	(model "${CUSTLIB}/3D_Models/Basic/2.05x1.65x0.6mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
