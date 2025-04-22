@@ -1,0 +1,128 @@
+(footprint "PICO_EZMate_2121340002"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.86 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eada138e-f141-446b-b44d-4c00619e6de9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PICO_EZMate_2121340002"
+		(at -0.02 -2.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "77352601-ab7e-4148-a3de-562399dc73da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e72d167-4baf-464e-accf-234fb4e4bcc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64b41fc4-d944-4bac-8ffb-2e48476af6e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.95 -0.5)
+		(end 1.95 4.22)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1a493afb-8f5f-47e5-ac5f-4c28c00d9943")
+	)
+	(fp_rect
+		(start -1.95 -0.5)
+		(end 1.95 4.22)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a86ee554-4f57-4f4d-a08d-097a0158a2e3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.01 5.58 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a40ed8b7-f22c-4842-bdfb-898d3ab67b76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 -0.4)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "aef45a17-3d92-4abb-bf35-498d82e9f3a7")
+	)
+	(pad "2" smd rect
+		(at 0.5 -0.4)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c1a87267-2d89-40a5-af5e-f3714556004e")
+	)
+	(pad "3" smd rect
+		(at -1.525 3.6)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "195ed493-2a4b-42f4-a78c-0cee4056c4e8")
+	)
+	(pad "3" smd rect
+		(at 1.525 3.6)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cc065d91-d31e-4e95-a00d-846102e9405e")
+	)
+	(embedded_fonts no)
+	(model "${CUSTLIB}/3D_Models/Molex/2121340002.stp"
+		(offset
+			(xyz 0.5 -4.15 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
