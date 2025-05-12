@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "QFN:QFN-17x17_EP_8x8_Pitch0.4mm"
 			(at 0 0 0)
 			(effects
 				(font
