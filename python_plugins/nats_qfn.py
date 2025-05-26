@@ -157,7 +157,8 @@ class QFNWizard(FootprintWizardBase.FootprintWizard):
             epad = PA.PadMaker(self.module).SMDPad( epad_w, epad_l, shape=pcbnew.PAD_SHAPE_RECT )
             epad.SetLocalSolderPasteMargin( -1 * self.epad['paste margin'] )
             # set pad layers
-            layers = pcbnew.LSET(pcbnew.F_Mask)
+            layers = pcbnew.LSET()
+            layers.AddLayer(pcbnew.F_Mask)
             layers.AddLayer(pcbnew.F_Cu)
             layers.AddLayer(pcbnew.F_Paste)
             epad.SetName(epad_num)
