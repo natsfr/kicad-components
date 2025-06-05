@@ -1,0 +1,126 @@
+(footprint "DFN2020-3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT1061")
+	(property "Reference" "REF**"
+		(at 0.01 2.12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "80261463-22ba-48aa-9df3-b64cb5052cac")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DFN2020-3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "309ea995-ca5e-4681-9302-463ce15b4e49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4f7792f-000f-4cac-83e3-775f85360963")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0209bad6-a33f-446b-827a-763001bd05ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.05 -0.95)
+		(end 1.05 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "328909e6-ef5f-4959-a4a4-e93bdd128d98")
+	)
+	(fp_rect
+		(start -1.05 -0.95)
+		(end 1.05 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "63c11ffd-dbdc-4027-9203-b8f34bd1e3ea")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2a3a4fc2-bc06-4716-a9dc-dfda2b8121cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" smd rect
+		(at -0.65 1.05)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "732b797f-8a84-4f0c-bba9-c7ce80d14a5a")
+	)
+	(pad "A" smd rect
+		(at 0.65 1.05)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "6b251088-6eaf-487f-badf-ea68aa02ec8c")
+	)
+	(pad "K" smd custom
+		(at 0 0)
+		(size 1.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -0.2 -0.8)
+				(end 0.2 -0.55)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "c99970cb-3a0d-4ab1-81f4-06f4fc632258")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,142 @@
+(footprint "MSD7342"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d7092e4f-2789-4c9a-b498-fec99ce8b969")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MSD7342"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "79d631d5-c49b-467b-b4c5-2302a344dee8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "047ffb8f-f7fb-4bd9-99d4-8a485efd4b5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Tight coupled inductor for SEPIC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5d852b9-31e0-4d15-990e-350a1be89357")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.75 -3.75)
+		(end 3.75 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0fb8f8e8-049f-4f64-91a2-3e18f92ad105")
+	)
+	(fp_circle
+		(center 1.8 -4.12)
+		(end 1.88 -4.21)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e5971d02-eff8-4274-845e-5f83f985545f")
+	)
+	(fp_rect
+		(start -3.75 -3.75)
+		(end 3.75 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eedd2ab0-803e-4271-a6cc-dbfd7415f01a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3529b56f-5161-46d0-b126-1c5c60251985")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.85 -2.7)
+		(size 1.1 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "cfcdae53-d000-4750-9bc7-9302cea402f0")
+	)
+	(pad "2" smd rect
+		(at -0.85 -2.7)
+		(size 1.1 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "1547b339-b476-4f13-86b8-67a0b82a7742")
+	)
+	(pad "3" smd rect
+		(at -0.85 2.7)
+		(size 1.1 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c13b58c9-ba10-4284-bc77-165fe8d0dcdb")
+	)
+	(pad "4" smd rect
+		(at 0.85 2.7)
+		(size 1.1 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "8a871a3e-e9ac-407f-b8f9-0502f4fe831e")
+	)
+	(embedded_fonts no)
+	(model "${CUSTLIB}/3D_Models/Coilcraft/Coilcraft-MSD7342.STEP"
+		(offset
+			(xyz 0 0 0.19)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
