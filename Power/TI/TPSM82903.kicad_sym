@@ -1,0 +1,285 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "TPSM82903"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 5.08 -9.144 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "TPSM82903"
+			(at 0 7.366 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "TI:TPSM82903_microsip"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "MOUSER"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "595-TPSM82903SISR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPSM82903_0_1"
+			(rectangle
+				(start -3.81 6.35)
+				(end 3.81 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TPSM82903_1_1"
+			(pin power_in line
+				(at -5.08 5.08 0)
+				(length 1.27)
+				(name "VIN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 3.81 0)
+				(length 1.27)
+				(name "VIN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 1.27)
+				(name "EN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -2.54 0)
+				(length 1.27)
+				(name "MODE/SCONF"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -5.08 -5.08 0)
+				(length 1.27)
+				(name "PG"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -2.54 -11.43 90)
+				(length 1.27)
+				(name "SW/NC"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -11.43 90)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 5.08 180)
+				(length 1.27)
+				(name "Vout"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 3.81 180)
+				(length 1.27)
+				(name "Vout"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 0 180)
+				(length 1.27)
+				(name "FB/VSET"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -5.08 180)
+				(length 1.27)
+				(name "SS/TR"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

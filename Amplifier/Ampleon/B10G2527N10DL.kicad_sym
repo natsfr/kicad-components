@@ -1,0 +1,459 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "B10G42527N10DL"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "B10G42527N10DL"
+			(at 13.97 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ampleon:LGA-7x7-20-2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "B10G42527N10DL_0_1"
+			(rectangle
+				(start -8.89 5.08)
+				(end 10.16 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "B10G42527N10DL_1_1"
+			(pin input line
+				(at -11.43 0 0)
+				(length 2.54)
+				(name "RFin"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 7.62 270)
+				(length 2.54)
+				(name "Vgsc"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 90)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -1.27 7.62 270)
+				(length 2.54)
+				(name "Vgsp"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 7.62 270)
+				(length 2.54)
+				(name "Vds1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 7.62 270)
+				(length 2.54)
+				(hide yes)
+				(name "Vds1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -7.62 90)
+				(length 2.54)
+				(name "GNDPAD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 7.62 270)
+				(length 2.54)
+				(name "Vds2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "RFout"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
