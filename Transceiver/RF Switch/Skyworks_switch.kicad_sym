@@ -510,7 +510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "QFN:SKY13414-485_weirdqfn"
 			(at 0 0 0)
 			(effects
 				(font

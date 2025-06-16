@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "SF2124E"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -87,24 +87,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -3.81 -3.81 90)
-				(length 1.27)
-				(name "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -6.35 0 0)
 				(length 1.27)
@@ -116,6 +98,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -3.81 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1 1)
@@ -159,24 +159,6 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 6.35 0 180)
-				(length 1.27)
-				(name "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 3.81 -3.81 90)
 				(length 1.27)
@@ -195,7 +177,26 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 6.35 0 180)
+				(length 1.27)
+				(name "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SF2173E"
 		(exclude_from_sim no)
@@ -282,24 +283,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -3.81 -3.81 90)
-				(length 1.27)
-				(name "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -6.35 0 0)
 				(length 1.27)
@@ -311,6 +294,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -3.81 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1 1)
@@ -354,24 +355,6 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 6.35 0 180)
-				(length 1.27)
-				(name "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 3.81 -3.81 90)
 				(length 1.27)
@@ -390,7 +373,26 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 6.35 0 180)
+				(length 1.27)
+				(name "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TA0700A"
 		(exclude_from_sim no)
@@ -477,24 +479,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -3.81 -3.81 90)
-				(length 1.27)
-				(name "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -6.35 0 0)
 				(length 1.27)
@@ -506,6 +490,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -3.81 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1 1)
@@ -549,24 +551,6 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 6.35 0 180)
-				(length 1.27)
-				(name "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 3.81 -3.81 90)
 				(length 1.27)
@@ -585,7 +569,182 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 6.35 0 180)
+				(length 1.27)
+				(name "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "TA1629C"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at 0 2.032 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "TA1629C"
+			(at 4.064 -2.794 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Tai-SAW:1.4x1.1_SAW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TA1629C_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TA1629C_1_1"
+			(pin bidirectional line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(hide yes)
+				(name "4"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(hide yes)
+				(name "5"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "TA1833A"
 		(exclude_from_sim no)
@@ -672,24 +831,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -3.81 -3.81 90)
-				(length 1.27)
-				(name "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -6.35 0 0)
 				(length 1.27)
@@ -701,6 +842,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -3.81 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1 1)
@@ -744,24 +903,6 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 6.35 0 180)
-				(length 1.27)
-				(name "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 3.81 -3.81 90)
 				(length 1.27)
@@ -780,6 +921,181 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 6.35 0 180)
+				(length 1.27)
+				(name "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "TA1963A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at 0 2.032 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "TA1963A"
+			(at 4.064 -2.794 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Tai-SAW:1.4x1.1_SAW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TA1963A_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TA1963A_1_1"
+			(pin bidirectional line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(hide yes)
+				(name "4"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(hide yes)
+				(name "5"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 )
