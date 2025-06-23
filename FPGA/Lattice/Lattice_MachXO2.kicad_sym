@@ -49,6 +49,24 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "MOUSER"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "842-XO21200HC4MG132I"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects

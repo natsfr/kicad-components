@@ -49,6 +49,24 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "MOUSER"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "595-LM51571RTER"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "LM5157_0_1"
 			(rectangle
 				(start -6.35 10.16)

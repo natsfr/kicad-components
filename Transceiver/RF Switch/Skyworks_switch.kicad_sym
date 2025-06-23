@@ -502,7 +502,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SKY13414-485"
 			(at 0 0 0)
 			(effects
 				(font
@@ -533,6 +533,24 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "MOUSER"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "873-SKY13414-485LF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
 				)
 				(hide yes)
 			)

@@ -2,27 +2,30 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "NC7WZU04"
+	(symbol "TFA20C00DBER"
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 7.874 0)
+		(property "Reference" "R"
+			(at -2.032 2.286 0)
 			(effects
 				(font
 					(size 1 1)
 				)
 			)
 		)
-		(property "Value" "NC7WZU04"
+		(property "Value" "0dB"
 			(at 0 0 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Footprint" "SOT:SC-88"
+		(property "Footprint" "Ohmite:TFA20_atten"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58,7 +61,7 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "512-NC7WZU04P6X"
+		(property "SKU" "588-TFA20C00DBER"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67,80 +70,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "NC7WZU04_0_1"
+		(symbol "TFA20C00DBER_0_1"
 			(rectangle
-				(start -3.81 3.81)
-				(end 3.81 -3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.524 3.302) (xy -1.524 1.778) (xy 0 2.54) (xy -1.524 3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.524 -1.778) (xy -1.524 -3.302) (xy 0 -2.54) (xy -1.524 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0.254 2.54)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0.254 -2.54)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.508 2.54) (xy 1.778 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.508 -2.54) (xy 1.778 -2.54)
-				)
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -150,11 +83,11 @@
 				)
 			)
 		)
-		(symbol "NC7WZU04_1_1"
-			(pin input line
-				(at -5.08 2.54 0)
+		(symbol "TFA20C00DBER_1_1"
+			(pin passive line
+				(at -3.81 0 0)
 				(length 1.27)
-				(name "A1"
+				(name "1"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -169,28 +102,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -5.08 0 0)
+			(pin passive line
+				(at 0 -2.54 90)
 				(length 1.27)
-				(name "GND"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -5.08 -2.54 0)
-				(length 1.27)
-				(name "A2"
+				(name "3"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -205,17 +120,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 5.08 2.54 180)
+			(pin passive line
+				(at 3.81 0 180)
 				(length 1.27)
-				(name "Y1"
+				(name "2"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "6"
+				(number "2"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -223,17 +138,102 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 5.08 0 180)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TFA20C09DBER"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -2.032 2.286 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "9dB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Ohmite:TFA20_atten"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "MOUSER"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "588-TFA20C09DBER"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TFA20C09DBER_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TFA20C09DBER_1_1"
+			(pin passive line
+				(at -3.81 0 0)
 				(length 1.27)
-				(name "VCC"
+				(name "1"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -241,17 +241,35 @@
 					)
 				)
 			)
-			(pin output line
-				(at 5.08 -2.54 180)
+			(pin passive line
+				(at 0 -2.54 90)
 				(length 1.27)
-				(name "Y2"
+				(name "3"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "4"
+				(number "3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.635 0.635)
