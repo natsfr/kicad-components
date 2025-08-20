@@ -82,7 +82,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layers "F.Cu" "F.Mask")
+		(layer "F.Mask")
 		(uuid "27d31043-2c42-4f08-b4a4-13cd443d4cd1")
 	)
 	(fp_poly
