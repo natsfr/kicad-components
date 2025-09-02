@@ -1931,9 +1931,10 @@
 			)
 		)
 		(symbol "COUPLED_IND_0_1"
-			(circle
-				(center -2.54 2.032)
-				(radius 0.3592)
+			(arc
+				(start -1.27 1.27)
+				(mid -1.642 0.372)
+				(end -2.54 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1955,9 +1956,9 @@
 				)
 			)
 			(arc
-				(start -1.27 1.27)
-				(mid -1.642 0.372)
-				(end -2.54 0)
+				(start -1.27 -1.27)
+				(mid -1.642 -2.168)
+				(end -2.54 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -1978,10 +1979,9 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -1.27 -1.27)
-				(mid -1.642 -2.168)
-				(end -2.54 -2.54)
+			(circle
+				(center -2.54 2.032)
+				(radius 0.3592)
 				(stroke
 					(width 0)
 					(type default)
@@ -6191,7 +6191,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "A"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -6209,7 +6209,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "K"
 					(effects
 						(font
 							(size 0.635 0.635)
