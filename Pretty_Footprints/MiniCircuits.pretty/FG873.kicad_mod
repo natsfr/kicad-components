@@ -65,6 +65,16 @@
 		(uuid "e3b8fe11-9b9f-4d95-9dcb-17e0986dcd6d")
 	)
 	(fp_line
+		(start -0.5 1.6)
+		(end -0.5 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f5dbb7f0-1e2f-4267-bf33-827a7b915391")
+	)
+	(fp_line
 		(start 0 -2.1)
 		(end -2.1 0)
 		(stroke
@@ -95,8 +105,8 @@
 		(uuid "88be4e3f-b9ae-43a1-9104-96bdf0694e7c")
 	)
 	(fp_circle
-		(center -0.8 2.3)
-		(end -0.7 2.3)
+		(center -0.7 1.7)
+		(end -0.6 1.7)
 		(stroke
 			(width 0.1)
 			(type default)
