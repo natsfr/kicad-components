@@ -2,47 +2,27 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "SFP_SYMBOL"
-		(pin_names
-			(offset 1.016)
-		)
+	(symbol "854S01I"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 4.445 -9.525 0)
+			(at 4.826 -4.826 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Value" "SFP_SYMBOL"
-			(at 0 9.525 0)
+		(property "Value" "854S01I"
+			(at -7.62 -4.826 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Footprint" "SFP_CONNECTOR:SFP_CONNECTOR"
-			(at -1.27 -1.905 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -1.27 -1.905 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Description" "CAGE: 571-2227303-3"
+		(property "Footprint" "QFN:QFN-16_EP_3x3_Pitch0.5mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51,7 +31,16 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" " 571-1658197-1 "
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1:2 differential to lvds mux"
 			(at 0 0 0)
 			(effects
 				(font
@@ -69,10 +58,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "SFP_SYMBOL_0_1"
+		(property "SKU" "972-854S01AKILF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "854S01I_0_1"
 			(rectangle
-				(start -5.08 6.985)
-				(end 5.08 -6.985)
+				(start -5.08 5.08)
+				(end 3.81 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -82,11 +80,11 @@
 				)
 			)
 		)
-		(symbol "SFP_SYMBOL_1_1"
-			(pin power_in line
-				(at -7.62 5.715 0)
-				(length 2.54)
-				(name "VeeT"
+		(symbol "854S01I_1_1"
+			(pin input line
+				(at -6.35 2.54 0)
+				(length 1.27)
+				(name "PCLK0"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -101,10 +99,10 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at -7.62 4.445 0)
-				(length 2.54)
-				(name "TX_Fault"
+			(pin input line
+				(at -6.35 1.27 0)
+				(length 1.27)
+				(name "~{PCLK0}"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -120,9 +118,9 @@
 				)
 			)
 			(pin input line
-				(at -7.62 3.175 0)
-				(length 2.54)
-				(name "TX_DIS"
+				(at -6.35 -1.27 0)
+				(length 1.27)
+				(name "PCLK1"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -137,10 +135,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -7.62 1.905 0)
-				(length 2.54)
-				(name "MOD_DEF2"
+			(pin input line
+				(at -6.35 -2.54 0)
+				(length 1.27)
+				(name "~{PCLK1}"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -155,17 +153,73 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 0.635 0)
-				(length 2.54)
-				(name "MOD_DEF1"
+			(pin no_connect line
+				(at -2.54 -6.35 90)
+				(length 1.27)
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "5"
+				(number "16"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -2.54 -6.35 90)
+				(length 1.27)
+				(name "NC"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 6.35 270)
+				(length 1.27)
+				(hide yes)
+				(name "Vdd"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 6.35 270)
+				(length 1.27)
+				(name "Vdd"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -174,9 +228,9 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -0.635 0)
-				(length 2.54)
-				(name "MOD_DEF0"
+				(at 0 -6.35 90)
+				(length 1.27)
+				(name "CLK_SEL"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -192,34 +246,16 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -1.905 0)
-				(length 2.54)
-				(name "RS"
+				(at 2.54 6.35 270)
+				(length 1.27)
+				(name "RSVD"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "7"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at -7.62 -3.175 0)
-				(length 2.54)
-				(name "LOS"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "8"
+				(number "5"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -228,207 +264,10 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 -4.445 0)
-				(length 2.54)
-				(name "VeeR"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 -5.715 0)
-				(length 2.54)
-				(name "VeeR"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -9.525 90)
-				(length 2.54)
-				(name "Shield"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "G"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 5.715 180)
-				(length 2.54)
-				(name "VeeT"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 4.445 180)
-				(length 2.54)
-				(name "TD_N"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 3.175 180)
-				(length 2.54)
-				(name "TD_P"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 1.905 180)
-				(length 2.54)
-				(name "VeeT"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 0.635 180)
-				(length 2.54)
-				(name "VccT"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 -0.635 180)
-				(length 2.54)
-				(name "VccR"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 -1.905 180)
-				(length 2.54)
-				(name "VeeR"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 7.62 -3.175 180)
-				(length 2.54)
-				(name "RD_P"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 7.62 -4.445 180)
-				(length 2.54)
-				(name "RD_N"
+				(at 2.54 -6.35 90)
+				(length 1.27)
+				(hide yes)
+				(name "GND"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -444,9 +283,84 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -5.715 180)
-				(length 2.54)
-				(name "VeeR"
+				(at 2.54 -6.35 90)
+				(length 1.27)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -6.35 90)
+				(length 1.27)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -6.35 90)
+				(length 1.27)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -6.35 90)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 5.08 1.27 180)
+				(length 1.27)
+				(name "Q"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -454,6 +368,24 @@
 					)
 				)
 				(number "11"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 5.08 -1.27 180)
+				(length 1.27)
+				(name "~{Q}"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 0.635 0.635)
