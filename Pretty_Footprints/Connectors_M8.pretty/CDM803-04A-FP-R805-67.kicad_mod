@@ -1,0 +1,125 @@
+(footprint "CDM803-04A-FP-R805-67"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Samesky M8 Female panel mount PCB 4 contact")
+	(property "Reference" "REF**"
+		(at -0.01 4.69 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "357b85b5-34e3-4e2c-8a18-21ff9f0ae822")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CDM803-04A-FP-R805-67"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "70c88629-36b5-42e3-a661-ba1f4f6f9749")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.sameskydevices.com/product/resource/cdm803.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e6a0ca6-088e-4366-a22c-bfcb3d76896d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea042bfa-c222-437a-805a-4999a9f2baae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3 -2.8)
+		(end 3 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "13858d34-dbd8-45d3-bb99-3374b0436a6e")
+	)
+	(fp_circle
+		(center 2.45 1.44)
+		(end 2.59 1.58)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "55800045-e7a0-422f-b250-17c603f0b323")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "853bf480-2c47-4e7d-9612-eb250a1dc578")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.7 0.5)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d7639dd-73f9-4cc0-b59a-821f97cf5655")
+	)
+	(pad "2" thru_hole circle
+		(at 1.075 -1.45)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3eca61a0-642d-4307-b425-9d3aec409fee")
+	)
+	(pad "3" thru_hole circle
+		(at -1.7 0.5)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ed2725d-98b6-4aad-9d7c-c9897fc89311")
+	)
+	(pad "4" thru_hole circle
+		(at -1.075 -1.45)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8b46b51-7c8a-4bce-951e-b0f21bcb6346")
+	)
+	(embedded_fonts no)
+)
