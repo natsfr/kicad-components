@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SOT:SC70-8"
 			(at 0 0 0)
 			(effects
 				(font
