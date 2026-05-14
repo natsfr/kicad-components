@@ -138,4 +138,15 @@
 		(uuid "efecc3ae-4bec-41f2-9eb6-8b19c8ae430b")
 	)
 	(embedded_fonts no)
+	(model "${CUSTLIB}/3D_Models/Masach/ms488-10f-ns.stp"
+		(offset
+			(xyz 7.8 -1.5 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
 )
