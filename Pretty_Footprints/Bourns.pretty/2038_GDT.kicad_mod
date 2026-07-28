@@ -1,0 +1,113 @@
+(footprint "2038_GDT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c8c0fa0c-b64d-47df-bed8-f0917f85e30f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Sans titre"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6e90fd00-897d-45b7-aa0a-b426d4cf1e87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8db5e3f-f89f-4509-b187-ada11854f42d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71e87625-ba6e-4bad-b21a-ec2e128fccec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.25 -3)
+		(end 4.25 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ccdbdae3-7b78-4224-a6e0-0dec89cfdb89")
+	)
+	(fp_rect
+		(start -4.5 -3)
+		(end 4.5 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0334e535-dcf9-4c1c-948c-5caf090dea90")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "70bf1ef3-0f92-4aba-a2a5-427abd6be26a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.3 0)
+		(size 1.6 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "675d8d0b-05db-459d-81fc-9e2445e64aa8")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 1.6 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "1fa09ba2-448b-426c-9165-5518008960ab")
+	)
+	(pad "3" smd rect
+		(at 3.3 0)
+		(size 1.6 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "135d80f5-4313-4a99-ad95-2efd2bad67e7")
+	)
+	(embedded_fonts no)
+)

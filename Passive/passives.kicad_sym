@@ -3540,14 +3540,14 @@
 			(pin passive line
 				(at 0 -3.81 90)
 				(length 1.27)
-				(name "3"
+				(name "2"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -3558,14 +3558,14 @@
 			(pin passive line
 				(at 3.81 0 180)
 				(length 1.27)
-				(name "2"
+				(name "3"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "2"
+				(number "3"
 					(effects
 						(font
 							(size 0.635 0.635)

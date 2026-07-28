@@ -1,0 +1,138 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "TBU-CA"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "TBU-CA"
+			(at 0 5.334 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Bourns:TBU-CA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TBU-CA protection BOURNS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TBU-CA_0_1"
+			(rectangle
+				(start -3.81 2.54)
+				(end 3.81 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -2.54 0) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TBU-CA_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "NC"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

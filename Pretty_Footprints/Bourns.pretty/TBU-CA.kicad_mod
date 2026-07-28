@@ -1,0 +1,113 @@
+(footprint "TBU-CA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66f88dbd-2105-446d-aa15-ac684fb81203")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TBU-CA"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1f37c2a-cd0a-4a14-8960-acd935fe8348")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "227018e9-9778-45e5-84d3-7ba2df2119c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3602f3fa-eade-4c32-993b-343e78b81dff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.25 -2)
+		(end 3.25 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1f548e8d-88a4-4bda-b6d0-805755091b1a")
+	)
+	(fp_rect
+		(start -3.25 -2)
+		(end 3.25 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1585d01c-f4e3-4821-b8c4-58490c12bbc8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "07c2a44a-55f8-4def-a43b-16cdec7dac94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.025 0)
+		(size 1.85 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "ec0b6978-4640-4078-9fb8-5919133a218b")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.8 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "90a0682b-6518-49f2-ae6a-c2c225233956")
+	)
+	(pad "3" smd rect
+		(at 2.025 0)
+		(size 1.85 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b53f5131-04a2-4826-b2c6-6f513f0dc096")
+	)
+	(embedded_fonts no)
+)
