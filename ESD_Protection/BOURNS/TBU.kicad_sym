@@ -96,7 +96,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 0 -3.81 90)
 				(length 1.27)
 				(name "NC"
