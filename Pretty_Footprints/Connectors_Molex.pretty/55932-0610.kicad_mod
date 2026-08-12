@@ -175,4 +175,15 @@
 		(uuid "d2b4a229-4343-4869-82be-807645e31c62")
 	)
 	(embedded_fonts no)
+	(model "${CUSTLIB}/3D_Models/Molex/559320610.stp"
+		(offset
+			(xyz 0 -0.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

@@ -135,4 +135,15 @@
 		(uuid "942da6f7-3391-42e9-983c-4e927270af8f")
 	)
 	(embedded_fonts no)
+	(model "${CUSTLIB}/3D_Models/Pulse/PA2754NL.step"
+		(offset
+			(xyz 11.3 -14 -4.85)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
 )

@@ -110,4 +110,15 @@
 		(uuid "135d80f5-4313-4a99-ad95-2efd2bad67e7")
 	)
 	(embedded_fonts no)
+	(model "${CUSTLIB}/3D_Models/Bourns/2038-xx-sm.stp"
+		(offset
+			(xyz -3.8 0 2.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

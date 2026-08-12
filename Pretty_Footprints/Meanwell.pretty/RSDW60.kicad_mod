@@ -148,4 +148,15 @@
 		(uuid "faf69583-a06d-49bc-b39c-3573b67e981a")
 	)
 	(embedded_fonts no)
+	(model "${CUSTLIB}/3D_Models/Meanwell/RSDW60G-12.step"
+		(offset
+			(xyz 0 0 10.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 90)
+		)
+	)
 )
