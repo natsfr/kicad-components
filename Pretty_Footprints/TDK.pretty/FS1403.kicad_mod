@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Footprint P11F1")
 	(property "Reference" "REF**"
 		(at 0 -3.1 0)
 		(unlocked yes)
@@ -54,30 +55,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -0.85 -0.92) (xy 0.25 -0.92) (xy 0.25 0.08) (xy 0.85 0.08) (xy 0.85 0.82) (xy -0.85 0.82)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "93b08ccd-58bb-40a2-b319-b200c2a36d25")
-	)
-	(fp_poly
-		(pts
-			(xy -0.85 -0.92) (xy 0.25 -0.92) (xy 0.25 0.08) (xy 0.85 0.08) (xy 0.85 0.82) (xy -0.85 0.82)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "93b08ccd-58bb-40a2-b319-b200c2a36d25")
-	)
 	(fp_rect
 		(start -1.65 -1.65)
 		(end 1.65 1.65)
@@ -169,6 +146,7 @@
 		(at 0 1.325)
 		(size 1.7 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin_ratio -0.1)
 		(thermal_bridge_angle 45)
 		(uuid "d175d3f2-cb9f-4d01-af5b-6322267254af")
 	)
@@ -201,30 +179,51 @@
 		(uuid "e5b7037d-3e22-42b1-9833-3b4bd8dbfe1a")
 	)
 	(pad "12" smd rect
-		(at 1.35 -0.825)
-		(size 0.4 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "474465dd-05f7-4467-b7e2-82f439bed120")
-	)
-	(pad "13" smd rect
-		(at 1.35 -1.375)
-		(size 0.4 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "d13da4c2-5f12-4604-9b84-8931f2b83a20")
-	)
-	(pad "14" smd rect
 		(at 0.7 -1.375)
 		(size 0.3 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "84f60f14-f3bb-4344-8a3e-772a6cde11aa")
 	)
+	(pad "12" smd rect
+		(at 0.7 -0.575)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "5116db83-c11c-45bd-a926-86eef75b066a")
+	)
+	(pad "12" smd custom
+		(at 1.35 -1.375)
+		(size 0.4 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.8 1.15) (xy -0.5 1.15) (xy -0.5 0.695) (xy 0.195 0.695) (xy 0.2 0.695) (xy 0.2 -0.15) (xy -0.8 -0.15)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "d13da4c2-5f12-4604-9b84-8931f2b83a20")
+	)
+	(pad "12" smd rect
+		(at 1.35 -0.825)
+		(size 0.4 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "474465dd-05f7-4467-b7e2-82f439bed120")
+	)
 	(pad "15" smd rect
 		(at -0.3 -1.375)
 		(size 1.1 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin_ratio -0.1)
 		(thermal_bridge_angle 45)
 		(uuid "e9eabd76-9a65-4be9-89ca-47e5ab06e49a")
 	)
@@ -232,6 +231,7 @@
 		(at -0.26 0.35 90)
 		(size 0.3 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin_ratio -0.5)
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -248,12 +248,16 @@
 		)
 		(uuid "cd1f78fa-6a69-4a0a-9a73-52dd18ba43ea")
 	)
-	(pad "17" smd rect
-		(at 0.7 -0.575)
-		(size 0.3 0.7)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "5116db83-c11c-45bd-a926-86eef75b066a")
-	)
 	(embedded_fonts no)
+	(model "${CUSTLIB}/3D_Models/TDK/FS1403.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
