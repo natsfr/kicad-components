@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SSOP:TSSOP-38"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
